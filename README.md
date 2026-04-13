@@ -155,23 +155,11 @@ flowchart TB
 ## TIMELINE / ВРЕМЕННАЯ ШКАЛА
 
 ```mermaid
-timeline
-    title Agricultural Study Timeline / Временная Шкала
-    section 2026 Q1
-        Mar : Protocol Finalization v8.3
-    section 2026 Q2
-        Apr : Equipment Setup
-        May : Pilot Experiment
-        Jun : Main Experiment Start
-    section 2026 Q3
-        Jul-Aug : Main Experiment Continues
-        Sep : Growth Monitoring Begins
-    section 2026 Q4
-        Oct-Nov : Growth Monitoring
-        Dec : Data Analysis Start
-    section 2027 Q1
-        Jan : Data Analysis
-        Feb-Mar : Publication
+flowchart LR
+    A["2026 Q1\nMar: Protocol\nFinalization v8.3\n\n2026 К1\nМар: Финализация\nпротокола v8.3"] --> B["2026 Q2\nApr: Equipment Setup\nMay: Pilot Experiment\nJun: Main Experiment Start\n\n2026 К2\nАпр: Настройка оборудования\nМай: Пилотный эксперимент\nИюн: Начало основного"]
+    B --> C["2026 Q3\nJul-Aug: Main Experiment\nSep: Growth Monitoring\n\n2026 К3\nИюл-Авг: Основной эксперимент\nСен: Мониторинг роста"]
+    C --> D["2026 Q4\nOct-Nov: Growth Monitoring\nDec: Data Analysis Start\n\n2026 К4\nОкт-Ноя: Мониторинг роста\nДек: Начало анализа"]
+    D --> E["2027 Q1\nJan: Data Analysis\nFeb-Mar: Publication\n\n2027 К1\nЯнв: Анализ данных\nФев-Мар: Публикация"]
 ```
 
 ---
