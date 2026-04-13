@@ -260,12 +260,12 @@ flowchart TB
 
 | Name / ФИО | Role / Роль | Responsibilities / Обязанности |
 |-----------|------------|-------------------------------|
-| **Valeria Ovsyannikova / Валерия Овсянникова** | CBO / Lead Researcher / Ведущий исследователь | Research coordination, protocol design / Координация, дизайн протокола |
-| **Denis Banchenko / Денис Банченко** | CEO / PM | Project management, hyperbolic field physics / Управление проектом, физика полей |
-| **Mykhailo Kapustin / Михайло Капустин** | CTO | IT infrastructure / ИТ-инфраструктура |
-| **Alexandr Ovsyannikov / Александр Овсянников** | Electrical Engineer / Инженер | Electrical systems / Электрические системы |
-| **Ivan Savelyev / Иван Савельев** | Science Director / Директор по науке | Scientific direction / Научное направление |
-| **Kyryl Zmiienko / Кирилл Змиенко** | AI/ML Engineer / ИИ-инженер | AI/ML analysis / ИИ/МО анализ |
+| **Valeria Ovsyannikova / Валерия Овсянникова** | Director of Biomedical Research Department / Директор департамента биомедицинских исследований | Research coordination, protocol design / Координация, дизайн протокола |
+| **Ivan Savelyev / Иван Савельев** | Science Director & Editor-in-Chief of ASRP.science / Директор по науке и главный редактор научного журнала ASRP.science | Scientific direction / Научное направление |
+| **Mykhailo Kapustin / Михайло Капустин** | CTO & Director of AI and IT Department / Технический директор и директор департамента ИИ и ИТ | IT infrastructure / ИТ-инфраструктура |
+| **Kyryl Zmiienko / Кирилл Змиенко** | Chief AI Engineer / Главный ИИ-инженер | AI/ML analysis / ИИ/МО анализ |
+| **Alexandr Ovsyannikov / Александр Овсянников** | Head Hardware Engineer / Главный Инженер по Аппаратному Обеспечению | Electrical systems / Электрические системы |
+| **Denis Banchenko / Денис Банченко** | Program Director, Author of Research Methodology & Technology / Директор программы, автор методологии и технологии исследования | Project management, hyperbolic field physics / Управление проектом, физика полей |
 | **Olesya Chirkova / Олеся Чиркова** | Consultant / Консультант | Blood plasma methodology / Методология плазмы крови |
 
 **Collaborator / Коллаборант:** SASU Point Rouge, France (Chirkova)
