@@ -22,14 +22,14 @@
 
 | Section / Раздел | Description / Описание | Status / Статус |
 |------------------|----------------------|-----------------|
-| [Overview / Обзор](#overview--обзор) | Study objectives / Цели исследования |  Defined |
-| [Research Goals / Цели](#research-goals--цели-исследования) | 7 measurable goals / 7 измеримых целей |  Defined |
-| [Experimental Design / Дизайн](#experimental-design--экспериментальный-дизайн) | 13 groups, 6 crops, 8 substrates / 13 групп, 6 культур, 8 субстратов |  Protocol v8.3 |
-| [Treatment Groups / Группы](#treatment-groups--группы-обработки) | Direct, Water, Crystal, Combined / Прямой, Вода, Кристалл, Комбинированный |  Defined |
-| [Timeline / Сроки](#timeline--временная-шкала) | ~7 months, 7 phases / ~7 месяцев, 7 фаз |  Planned |
-| [Team / Команда](#research-team--команда) | 7 researchers + collaborator / 7 исследователей + коллаборант |  Assigned |
-| [Active Issues / Задачи](#active-issues--tasks--активные-задачи) | GitHub Issues / Задачи GitHub |  7 Open |
-| [Patent Connection / Патент](#patent-connection--связь-с-патентом) | KZ 2025/1095.1 |  Substantive Exam |
+| [Overview / Обзор](#overview--обзор) | Study objectives / Цели исследования |  Defined / Определено |
+| [Research Goals / Цели](#research-goals--цели-исследования) | 7 measurable goals / 7 измеримых целей |  Defined / Определено |
+| [Experimental Design / Дизайн](#experimental-design--экспериментальный-дизайн) | 13 groups, 6 crops, 8 substrates / 13 групп, 6 культур, 8 субстратов |  Protocol v8.3 / Протокол v8.3 |
+| [Treatment Groups / Группы](#treatment-groups--группы-обработки) | Direct, Water, Crystal, Combined / Прямой, Вода, Кристалл, Комбинированный |  Defined / Определено |
+| [Timeline / Сроки](#timeline--временная-шкала) | ~7 months, 7 phases / ~7 месяцев, 7 фаз |  Planned / Запланировано |
+| [Team / Команда](#research-team--команда) | 7 researchers + collaborator / 7 исследователей + коллаборант |  Assigned / Назначено |
+| [Active Issues / Задачи](#active-issues--tasks--активные-задачи) | GitHub Issues / Задачи GitHub |  7 Open / 7 Открыто |
+| [Patent Connection / Патент](#patent-connection--связь-с-патентом) | KZ 2025/1095.1 |  Substantive Exam / Экспертиза по существу |
 
 ---
 
@@ -81,40 +81,7 @@ Randomized controlled trial (RCT) investigating the effects of hyperbolic field 
 
 ### Treatment Groups / Группы Обработки
 
-```mermaid
-flowchart TB
-    C0[C0: Control<br/>Контроль] --> M[Measurements<br/>Измерения]
-    
-    subgraph CH17[Channel 17 / Канал 17]
-        D17[Direct / Прямой]
-        W17[Water / Вода]
-        K17[Crystal / Кристалл]
-        CMB17[Combined / Комбинированный]
-    end
-    
-    subgraph CH19[Channel 19 / Канал 19]
-        D19[Direct / Прямой]
-        W19[Water / Вода]
-        K19[Crystal / Кристалл]
-        CMB19[Combined / Комбинированный]
-    end
-    
-    subgraph CH21[Channel 21 / Канал 21]
-        D21[Direct / Прямой]
-        W21[Water / Вода]
-        K21[Crystal / Кристалл]
-        CMB21[Combined / Комбинированный]
-    end
-    
-    CH17 --> M
-    CH19 --> M
-    CH21 --> M
-
-    style C0 fill:#95a5a6,stroke:#333
-    style CH17 fill:#e74c3c,stroke:#333,color:#fff
-    style CH19 fill:#3498db,stroke:#333,color:#fff
-    style CH21 fill:#2ecc71,stroke:#333,color:#fff
-```
+![Diagram 1](charts/mermaid/root_1.png)
 
 > **Channel 14 (Mutagenic / Мутагенный):** Separate investigation of mutagenic effects on seed germination — must be included in hypotheses / Отдельное исследование мутагенных эффектов на прорастание семян — должен быть включён в гипотезы
 
@@ -154,13 +121,7 @@ flowchart TB
 
 ## TIMELINE / ВРЕМЕННАЯ ШКАЛА
 
-```mermaid
-flowchart LR
-    A["2026 Q1\nMar: Protocol\nFinalization v8.3\n\n2026 К1\nМар: Финализация\nпротокола v8.3"] --> B["2026 Q2\nApr: Equipment Setup\nMay: Pilot Experiment\nJun: Main Experiment Start\n\n2026 К2\nАпр: Настройка оборудования\nМай: Пилотный эксперимент\nИюн: Начало основного"]
-    B --> C["2026 Q3\nJul-Aug: Main Experiment\nSep: Growth Monitoring\n\n2026 К3\nИюл-Авг: Основной эксперимент\nСен: Мониторинг роста"]
-    C --> D["2026 Q4\nOct-Nov: Growth Monitoring\nDec: Data Analysis Start\n\n2026 К4\nОкт-Ноя: Мониторинг роста\nДек: Начало анализа"]
-    D --> E["2027 Q1\nJan: Data Analysis\nFeb-Mar: Publication\n\n2027 К1\nЯнв: Анализ данных\nФев-Мар: Публикация"]
-```
+![Diagram 2](charts/mermaid/root_2.png)
 
 ---
 
@@ -182,7 +143,7 @@ flowchart LR
 | **TOST Equivalence** | Equivalence testing / Тест эквивалентности |
 | **Factorial ANOVA** | Interaction effects / Эффекты взаимодействия |
 
-**Software:** R
+**Software / Программное обеспечение:** R
 
 ---
 
@@ -231,16 +192,7 @@ Hyperbolic_Field_Agricultural_Study/
 
 ## PATENT CONNECTION / СВЯЗЬ С ПАТЕНТОМ
 
-```mermaid
-flowchart TB
-    P[KZ 2025/1095.1<br/>Fractal Biomedical<br/>Hyperbolic Field System<br/> Substantive Exam] --> E[Hyperbolic Field<br/>Emitter Technology<br/>Технология Излучателей]
-    E --> A[This Study<br/>Agricultural Research<br/>Это Исследование]
-    E --> B[Blood Plasma<br/>Study<br/>Исследование Плазмы]
-    E --> C[DAAT Crystal<br/>Study<br/>Исследование Кристаллов]
-
-    style P fill:#ffd93d,stroke:#333
-    style A fill:#2ecc71,stroke:#333,color:#fff
-```
+![Diagram 3](charts/mermaid/root_3.png)
 
 ---
 
@@ -256,7 +208,7 @@ flowchart TB
 | **Denis Banchenko / Денис Банченко** | Program Director, Author of Research Methodology & Technology / Директор программы, автор методологии и технологии исследования | Project management, hyperbolic field physics / Управление проектом, физика полей |
 | **Olesya Chirkova / Олеся Чиркова** | Consultant / Консультант | Blood plasma methodology / Методология плазмы крови |
 
-**Collaborator / Коллаборант:** SASU Point Rouge, France (Chirkova)
+**Collaborator / Коллаборант:** SASU Point Rouge, France (Chirkova) / SASU Point Rouge, Франция (Чиркова)
 
 ---
 
@@ -264,13 +216,13 @@ flowchart TB
 
 | # | Title / Название | Priority / Приоритет | Due / Срок | Status / Статус |
 |---|-----------------|---------------------|-----------|-----------------|
-| [#1](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study/issues/1) | Research Protocol v8.3 / Протокол исследования | — | — |  Complete |
-| [#3](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study/issues/3) | Agricultural Protocol / Протокол | — | — |  Complete |
-| [#4](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study/issues/4) | Seed Germination Phase (15 days) / Фаза прорастания |  High | Q2 2026 |  Open |
-| [#5](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study/issues/5) | Plant Growth Phase (60-90 days) / Фаза роста |  High | Q2-Q3 2026 |  Open |
-| [#6](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study/issues/6) | Stress Resilience Testing / Стресс-тест |  Medium | Q3 2026 |  Open |
-| [#7](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study/issues/7) | Water Treatment Analysis / Анализ обработки воды |  Medium | Q3 2026 |  Open |
-| [#8](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study/issues/8) | Crystal Treatment Validation / Валидация кристаллов |  Medium | Q3 2026 |  Open |
+| [#1](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study/issues/1) | Research Protocol v8.3 / Протокол исследования | — | — |  Complete / Завершено |
+| [#3](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study/issues/3) | Agricultural Protocol / Протокол | — | — |  Complete / Завершено |
+| [#4](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study/issues/4) | Seed Germination Phase (15 days) / Фаза прорастания |  High / Высокий | Q2 2026 |  Open / Открыто |
+| [#5](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study/issues/5) | Plant Growth Phase (60-90 days) / Фаза роста |  High / Высокий | Q2-Q3 2026 |  Open / Открыто |
+| [#6](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study/issues/6) | Stress Resilience Testing / Стресс-тест |  Medium / Средний | Q3 2026 |  Open / Открыто |
+| [#7](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study/issues/7) | Water Treatment Analysis / Анализ обработки воды |  Medium / Средний | Q3 2026 |  Open / Открыто |
+| [#8](https://github.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study/issues/8) | Crystal Treatment Validation / Валидация кристаллов |  Medium / Средний | Q3 2026 |  Open / Открыто |
 
 ---
 
