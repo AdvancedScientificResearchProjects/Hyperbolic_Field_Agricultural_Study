@@ -1,0 +1,189 @@
+[
+  {
+    "id": 1,
+    "filename": "2026-05-02_01.jpg",
+    "format": "JPEG",
+    "date_observed": "2026-05-02",
+    "jpg_preview": "2026-05-02_01.jpg",
+    "subject": "plants",
+    "group_label": null,
+    "comparison_layout": null,
+    "notes": "blue tray, seeds with first sprouts"
+  },
+  {
+    "id": 2,
+    "filename": "2026-05-02_02.jpg",
+    "format": "JPEG",
+    "date_observed": "2026-05-02",
+    "jpg_preview": "2026-05-02_02.jpg",
+    "subject": "plants",
+    "group_label": null,
+    "comparison_layout": null,
+    "notes": null
+  },
+  {
+    "id": 3,
+    "filename": "2026-05-02_07.jpg",
+    "format": "JPEG",
+    "date_observed": "2026-05-02",
+    "jpg_preview": "2026-05-02_07.jpg",
+    "subject": "plants",
+    "group_label": null,
+    "comparison_layout": null,
+    "notes": null
+  },
+  {
+    "id": 4,
+    "filename": "2026-05-02_08.jpg",
+    "format": "JPEG",
+    "date_observed": "2026-05-02",
+    "jpg_preview": "2026-05-02_08.jpg",
+    "subject": "plants",
+    "group_label": null,
+    "comparison_layout": null,
+    "notes": null
+  },
+  {
+    "id": 5,
+    "filename": "2026-05-02_09.jpg",
+    "format": "JPEG",
+    "date_observed": "2026-05-02",
+    "jpg_preview": "2026-05-02_09.jpg",
+    "subject": "plants",
+    "group_label": null,
+    "comparison_layout": null,
+    "notes": null
+  },
+  {
+    "id": 6,
+    "filename": "2026-05-02_10.jpg",
+    "format": "JPEG",
+    "date_observed": "2026-05-02",
+    "jpg_preview": "2026-05-02_10.jpg",
+    "subject": "plants",
+    "group_label": null,
+    "comparison_layout": null,
+    "notes": null
+  },
+  {
+    "id": 7,
+    "filename": "2026-05-02_13.jpg",
+    "format": "JPEG",
+    "date_observed": "2026-05-02",
+    "jpg_preview": "2026-05-02_13.jpg",
+    "subject": "plants",
+    "group_label": null,
+    "comparison_layout": null,
+    "notes": null
+  },
+  {
+    "id": 8,
+    "filename": "2026-05-02_14.jpg",
+    "format": "JPEG",
+    "date_observed": "2026-05-02",
+    "jpg_preview": "2026-05-02_14.jpg",
+    "subject": "plants",
+    "group_label": null,
+    "comparison_layout": null,
+    "notes": null
+  },
+  {
+    "id": 9,
+    "filename": "2026-05-03_01.jpg",
+    "format": "JPEG",
+    "date_observed": "2026-05-03",
+    "jpg_preview": "2026-05-03_01.jpg",
+    "subject": "plants",
+    "group_label": null,
+    "comparison_layout": null,
+    "notes": "square yellow tray on benchtop, top-down view"
+  },
+  {
+    "id": 10,
+    "filename": "2026-05-03_02.jpg",
+    "format": "JPEG",
+    "date_observed": "2026-05-03",
+    "jpg_preview": "2026-05-03_02.jpg",
+    "subject": "plants",
+    "group_label": null,
+    "comparison_layout": null,
+    "notes": "purple-light tray + researcher annotation arc drawn over the frame"
+  },
+  {
+    "id": 11,
+    "filename": "2026-05-04_chickpea_01.jpg",
+    "format": "JPEG",
+    "date_observed": "2026-05-04",
+    "jpg_preview": "2026-05-04_chickpea_01.jpg",
+    "subject": "chickpea",
+    "group_label": null,
+    "comparison_layout": null,
+    "notes": "three-row chickpea tray, full"
+  },
+  {
+    "id": 12,
+    "filename": "2026-05-04_chickpea_02.jpg",
+    "format": "JPEG",
+    "date_observed": "2026-05-04",
+    "jpg_preview": "2026-05-04_chickpea_02.jpg",
+    "subject": "chickpea",
+    "group_label": null,
+    "comparison_layout": null,
+    "notes": "comparison: empty vs filled chickpea trays"
+  },
+  {
+    "id": 13,
+    "filename": "2026-05-04_plants_01.HEIC",
+    "format": "HEIC",
+    "date_observed": "2026-05-04",
+    "jpg_preview": "2026-05-04_plants_01.jpg",
+    "subject": "plants",
+    "group_label": null,
+    "comparison_layout": null,
+    "notes": "yellow-edged tray, dense sprout mat"
+  },
+  {
+    "id": 14,
+    "filename": "2026-05-04_plants_02.HEIC",
+    "format": "HEIC",
+    "date_observed": "2026-05-04",
+    "jpg_preview": "2026-05-04_plants_02.jpg",
+    "subject": "plants",
+    "group_label": null,
+    "comparison_layout": null,
+    "notes": "square yellow tray"
+  },
+  {
+    "id": 15,
+    "filename": "2026-05-04_plants_03.HEIC",
+    "format": "HEIC",
+    "date_observed": "2026-05-04",
+    "jpg_preview": "2026-05-04_plants_03.jpg",
+    "subject": "plants",
+    "group_label": null,
+    "comparison_layout": null,
+    "notes": null
+  },
+  {
+    "id": 16,
+    "filename": "2026-05-04_plants_04.HEIC",
+    "format": "HEIC",
+    "date_observed": "2026-05-04",
+    "jpg_preview": "2026-05-04_plants_04.jpg",
+    "subject": "plants",
+    "group_label": null,
+    "comparison_layout": null,
+    "notes": null
+  },
+  {
+    "id": 17,
+    "filename": "2026-05-04_plants_05.HEIC",
+    "format": "HEIC",
+    "date_observed": "2026-05-04",
+    "jpg_preview": "2026-05-04_plants_05.jpg",
+    "subject": "plants",
+    "group_label": null,
+    "comparison_layout": null,
+    "notes": null
+  }
+]

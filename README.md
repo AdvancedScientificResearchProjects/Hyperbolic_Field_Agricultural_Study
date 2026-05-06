@@ -155,6 +155,12 @@ Hyperbolic_Field_Agricultural_Study/
 |-- README.md
 |
 |-- data/
+|   |-- README.md                      # Data hub / Хаб данных
+|   |-- photos/                        # Flat photo set + manifest / Плоский набор + манифест
+|   |   |-- README.md
+|   |   |-- manifest.json
+|   |   |-- original/                  # HEIC originals / HEIC-оригиналы
+|   |   `-- jpg/                       # JPEG previews / Превью
 |   |-- control/                       # Control group C0 / Контрольная группа
 |   |   `-- photos/
 |   |-- ch17-direct/                   # Channel 17 direct exposure / Прямое воздействие
@@ -187,6 +193,8 @@ Hyperbolic_Field_Agricultural_Study/
 |-- reports/                           # Analysis reports / Отчёты
 `-- scripts/                           # Analysis scripts (R) / Скрипты (R)
 ```
+
+See **[data/README.md](data/README.md)** — Data Hub indexing the flat photo set in `data/photos/` and the RCT-aligned channel/mode bins / Хаб данных, индексирующий плоский набор фотографий в `data/photos/` и RCT-выровненные корзины канал/режим.
 
 ---
 
