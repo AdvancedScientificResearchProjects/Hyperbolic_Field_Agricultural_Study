@@ -185,5 +185,27 @@
     "group_label": null,
     "comparison_layout": null,
     "notes": null
+  },
+  {
+    "id": 18,
+    "filename": "2026-06-02_pea_01.jpg",
+    "format": "JPEG",
+    "date_observed": "2026-06-02",
+    "jpg_preview": "2026-06-02_pea_01.jpg",
+    "subject": "pea",
+    "group_label": null,
+    "comparison_layout": null,
+    "notes": "preliminary sowing: soil-filled trays on rack with labeled seed-sample cups / предварительный засев: лотки с грунтом на стеллаже, подписанные образцы семян"
+  },
+  {
+    "id": 19,
+    "filename": "2026-06-02_pea_02.jpg",
+    "format": "JPEG",
+    "date_observed": "2026-06-02",
+    "jpg_preview": "2026-06-02_pea_02.jpg",
+    "subject": "pea",
+    "group_label": null,
+    "comparison_layout": null,
+    "notes": "preliminary sowing: seeded trays + mesh bundles of pea seeds (~100 seeds per bundle), microgreens/basil at rear / предварительный засев: засеянные лотки + сетчатые свёртки гороха (~100 семян на свёрток), микрозелень/базилик сзади"
   }
 ]
