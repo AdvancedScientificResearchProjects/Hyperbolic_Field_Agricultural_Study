@@ -10,13 +10,13 @@ Flat photo set for the agricultural hyperbolic-field study (early-germination �
 
 | Field / Поле | Value / Значение |
 |---|---|
-| Total photos / Всего фото | 19 |
+| Total photos / Всего фото | 21 |
 | HEIC | 5 |
-| JPEG | 14 |
-| Date range / Диапазон дат | 2026-05-02 — 2026-06-02 |
-| Subjects / Объекты | plants (15), chickpea (2), pea (2) |
-| `group_label=irradiated` / Облучённые | 0 |
-| `group_label=control` / Контроль | 0 |
+| JPEG | 16 |
+| Date range / Диапазон дат | 2026-05-02 — 2026-06-04 |
+| Subjects / Объекты | plants (15), chickpea (2), pea (4) |
+| `group_label=irradiated` / Облучённые | 1 |
+| `group_label=control` / Контроль | 1 |
 | With `comparison_layout` / С пространственной разметкой | 0 |
 
 ---
