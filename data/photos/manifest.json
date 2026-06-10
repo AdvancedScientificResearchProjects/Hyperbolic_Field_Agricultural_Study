@@ -229,5 +229,27 @@
     "group_label": "control",
     "comparison_layout": null,
     "notes": "germination of 2026-06-02 sowing, handwritten label '02.06. Образцы Не трогать. Не облученые': 2 trays sprouting peas + 1 tray yellow sprouts (microgreens) / всхожесть посева 02.06, записка 'Не облучённые' (контроль): 2 лотка проросшего гороха + 1 лоток жёлтых проростков (микрозелень)"
+  },
+  {
+    "id": 22,
+    "filename": "2026-06-10_microgreens-ch17_01.jpg",
+    "format": "JPEG",
+    "date_observed": "2026-06-10",
+    "jpg_preview": "2026-06-10_microgreens-ch17_01.jpg",
+    "subject": "microgreens",
+    "group_label": "irradiated-ch17",
+    "comparison_layout": null,
+    "notes": "Microgreens grown under hyperbolic-field channel 17 ('вся облучения 17', provided 2026-06-10); crate with 4 trays of mixed sprouts, top view. Provided for training / risk assessment / analysis. / Микрозелень под облучением каналом 17 ('вся облучения 17'); ящик с 4 лотками проростков, вид сверху. Для обучения / оценки рисков / анализа."
+  },
+  {
+    "id": 23,
+    "filename": "2026-06-10_microgreens-ch17_02.jpg",
+    "format": "JPEG",
+    "date_observed": "2026-06-10",
+    "jpg_preview": "2026-06-10_microgreens-ch17_02.jpg",
+    "subject": "microgreens",
+    "group_label": "irradiated-ch17",
+    "comparison_layout": null,
+    "notes": "Microgreens grown under hyperbolic-field channel 17, second angle (same 2026-06-10 batch); closer view of trays. / Микрозелень под облучением каналом 17, второй ракурс (та же партия 2026-06-10); более крупный план лотков."
   }
 ]
