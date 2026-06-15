@@ -45,7 +45,7 @@ Each entry in `manifest.json`:
 
 | # | File / Файл | Date / Дата | Format / Формат | Subject / Объект | Group / Группа | Comparison / Разметка | Notes / Примечание | Preview / Превью |
 |---|---|---|---|---|---|---|---|---|
-| 1 | `jpg/2026-05-02_01.jpg` | 2026-05-02 | JPEG | plants | — | — | blue tray, seeds with first sprouts | [↗](jpg/2026-05-02_01.jpg) |
+| 1 | `jpg/2026-05-02_01.jpg` | 2026-05-02 | JPEG | plants | — | — | blue tray, seeds with first sprouts / синий лоток, семена с первыми ростками | [↗](jpg/2026-05-02_01.jpg) |
 | 2 | `jpg/2026-05-02_02.jpg` | 2026-05-02 | JPEG | plants | — | — |  | [↗](jpg/2026-05-02_02.jpg) |
 | 3 | `jpg/2026-05-02_07.jpg` | 2026-05-02 | JPEG | plants | — | — |  | [↗](jpg/2026-05-02_07.jpg) |
 | 4 | `jpg/2026-05-02_08.jpg` | 2026-05-02 | JPEG | plants | — | — |  | [↗](jpg/2026-05-02_08.jpg) |
@@ -53,12 +53,12 @@ Each entry in `manifest.json`:
 | 6 | `jpg/2026-05-02_10.jpg` | 2026-05-02 | JPEG | plants | — | — |  | [↗](jpg/2026-05-02_10.jpg) |
 | 7 | `jpg/2026-05-02_13.jpg` | 2026-05-02 | JPEG | plants | — | — |  | [↗](jpg/2026-05-02_13.jpg) |
 | 8 | `jpg/2026-05-02_14.jpg` | 2026-05-02 | JPEG | plants | — | — |  | [↗](jpg/2026-05-02_14.jpg) |
-| 9 | `jpg/2026-05-03_01.jpg` | 2026-05-03 | JPEG | plants | — | — | square yellow tray on benchtop, top-down view | [↗](jpg/2026-05-03_01.jpg) |
-| 10 | `jpg/2026-05-03_02.jpg` | 2026-05-03 | JPEG | plants | — | — | purple-light tray + researcher annotation arc drawn over the frame | [↗](jpg/2026-05-03_02.jpg) |
-| 11 | `jpg/2026-05-04_chickpea_01.jpg` | 2026-05-04 | JPEG | chickpea | — | — | three-row chickpea tray, full | [↗](jpg/2026-05-04_chickpea_01.jpg) |
-| 12 | `jpg/2026-05-04_chickpea_02.jpg` | 2026-05-04 | JPEG | chickpea | — | — | comparison: empty vs filled chickpea trays | [↗](jpg/2026-05-04_chickpea_02.jpg) |
-| 13 | `original/2026-05-04_plants_01.HEIC` | 2026-05-04 | HEIC | plants | — | — | yellow-edged tray, dense sprout mat | [↗](jpg/2026-05-04_plants_01.jpg) |
-| 14 | `original/2026-05-04_plants_02.HEIC` | 2026-05-04 | HEIC | plants | — | — | square yellow tray | [↗](jpg/2026-05-04_plants_02.jpg) |
+| 9 | `jpg/2026-05-03_01.jpg` | 2026-05-03 | JPEG | plants | — | — | square yellow tray on benchtop, top-down view / квадратный жёлтый лоток на столе, вид сверху | [↗](jpg/2026-05-03_01.jpg) |
+| 10 | `jpg/2026-05-03_02.jpg` | 2026-05-03 | JPEG | plants | — | — | purple-light tray + researcher annotation arc drawn over the frame / лоток под фиолетовой подсветкой + дуга-аннотация исследователя поверх кадра | [↗](jpg/2026-05-03_02.jpg) |
+| 11 | `jpg/2026-05-04_chickpea_01.jpg` | 2026-05-04 | JPEG | chickpea | — | — | three-row chickpea tray, full / трёхрядный лоток нута, заполнен | [↗](jpg/2026-05-04_chickpea_01.jpg) |
+| 12 | `jpg/2026-05-04_chickpea_02.jpg` | 2026-05-04 | JPEG | chickpea | — | — | comparison: empty vs filled chickpea trays / сравнение: пустые vs заполненные лотки нута | [↗](jpg/2026-05-04_chickpea_02.jpg) |
+| 13 | `original/2026-05-04_plants_01.HEIC` | 2026-05-04 | HEIC | plants | — | — | yellow-edged tray, dense sprout mat / лоток с жёлтым краем, плотный коврик проростков | [↗](jpg/2026-05-04_plants_01.jpg) |
+| 14 | `original/2026-05-04_plants_02.HEIC` | 2026-05-04 | HEIC | plants | — | — | square yellow tray / квадратный жёлтый лоток | [↗](jpg/2026-05-04_plants_02.jpg) |
 | 15 | `original/2026-05-04_plants_03.HEIC` | 2026-05-04 | HEIC | plants | — | — |  | [↗](jpg/2026-05-04_plants_03.jpg) |
 | 16 | `original/2026-05-04_plants_04.HEIC` | 2026-05-04 | HEIC | plants | — | — |  | [↗](jpg/2026-05-04_plants_04.jpg) |
 | 17 | `original/2026-05-04_plants_05.HEIC` | 2026-05-04 | HEIC | plants | — | — |  | [↗](jpg/2026-05-04_plants_05.jpg) |

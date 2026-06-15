@@ -73,13 +73,13 @@ Randomized controlled trial (RCT) investigating the effects of hyperbolic field 
 | Parameter / Параметр | Value / Значение |
 |---------------------|-----------------|
 | **Study Type / Тип исследования** | Randomized Controlled Trial (RCT) / Рандомизированное контролируемое испытание |
-| **Protocol Version / Версия протокола** | v8.3 (March 2026) |
+| **Protocol Version / Версия протокола** | v8.3 (March 2026 / Март 2026) |
 | **Duration / Длительность** | 196–226 days (~7 months) / 196–226 дней (~7 месяцев) |
 | **Treatment Groups / Группы** | 13 (1 control + 12 treatment) / 13 (1 контроль + 12 обработка) |
 | **Crops / Культуры** | 6 |
 | **Seeds per Group / Семян на группу** | 200 |
 | **Total Seeds / Всего семян** | 15,600 |
-| **Substrates / Субстраты** | 8 (including Mars/Moon regolith simulants) |
+| **Substrates / Субстраты** | 8 (including Mars/Moon regolith simulants / включая симулянты марсианского/лунного реголита) |
 | **Channels / Каналы** | 17, 19, 21 (+ Channel 14 mutagenic) |
 | **Patent / Патент** | KZ 2025/1095.1 |
 
