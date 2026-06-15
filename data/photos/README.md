@@ -73,12 +73,12 @@ Each entry in `manifest.json`:
 
 ## What this set does NOT claim / Чего этот набор НЕ утверждает
 
-- **EN:** Does NOT report quantitative measurements (germination rate, sprout height, mass). Quantitative analysis is produced separately.
+- **EN:** Does NOT report quantitative measurements (germination rate, sprout height, mass). Any quantitative analysis would be performed separately at a later stage.
 - **EN:** Does NOT attribute photos to specific RCT bins. That attribution is a researcher-disclosure step.
 - **EN:** Does NOT validate the photographs as a calibrated assay. These are preliminary observations only.
 - **EN:** The only in-frame treatment labels are the handwritten `irradiated`/`control` notes on the 2026-06-04 pea pair (ids 20–21). The `irradiated-ch17` label on ids 22–23 is manifest free-text only ('вся облучения 17') — there is no in-frame label and no paired control. CH19 and CH21 have zero photos.
 - **EN:** In the 2026-06-04 `control` frame (id 21) the microgreen tray shows heavy white mould. This is an uncontrolled confound, not a treatment effect; no comparison should be drawn from it.
-- **RU:** НЕ приводит количественные измерения (всхожесть, высота ростка, масса). Количественный анализ производится отдельно.
+- **RU:** НЕ приводит количественные измерения (всхожесть, высота ростка, масса). Любой количественный анализ при необходимости будет выполнен отдельно на более поздней стадии.
 - **RU:** НЕ привязывает фотографии к корзинам RCT. Эта атрибуция — шаг раскрытия со стороны руководителя.
 - **RU:** НЕ утверждает, что фотографии — это калиброванный аналитический метод. Это только предварительные наблюдения.
 - **RU:** Единственные метки обработки в кадре — рукописные записки `irradiated`/`control` на паре гороха 02.06 (id 20–21). Метка `irradiated-ch17` на id 22–23 — только свободный текст манифеста ('вся облучения 17'), без метки в кадре и без парного контроля. Для CH19 и CH21 фотографий нет.

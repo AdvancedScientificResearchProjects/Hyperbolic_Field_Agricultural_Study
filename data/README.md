@@ -90,12 +90,12 @@ data/
 
 ## What this hub does NOT claim / Чего этот хаб НЕ утверждает
 
-- **EN:** Does NOT report effect-size statistics or quantitative measurements (germination rate, sprout height, mass). Quantitative analysis is produced separately.
+- **EN:** Does NOT report effect-size statistics or quantitative measurements (germination rate, sprout height, mass). Any quantitative analysis would be performed separately at a later stage.
 - **EN:** Does NOT attribute photos to specific RCT treatment-mode bins. That attribution is a researcher-disclosure step.
 - **EN:** Does NOT validate the photographs as a calibrated assay. They are preliminary observational records pending researcher analysis.
 - **EN:** The labels now present are limited: handwritten `irradiated`/`control` notes on the 2026-06-04 pea pair, and `irradiated-ch17` on the 2026-06-10 microgreens. The CH17 attribution is manifest free-text only — no in-frame label and no paired control. All 13 RCT bins (control + ch17/19/21 × direct/water/crystal/combined) remain empty placeholders; CH19 and CH21 have zero photos.
 - **EN:** In the 2026-06-04 `control` frame the microgreen tray shows heavy white mould — an uncontrolled confound, not a treatment effect. No comparison should be drawn from it.
-- **RU:** НЕ приводит статистику размера эффекта или количественные измерения (всхожесть, высота ростка, масса). Количественный анализ производится отдельно.
+- **RU:** НЕ приводит статистику размера эффекта или количественные измерения (всхожесть, высота ростка, масса). Любой количественный анализ при необходимости будет выполнен отдельно на более поздней стадии.
 - **RU:** НЕ привязывает фотографии к корзинам режимов RCT. Эта атрибуция — шаг раскрытия со стороны руководителя.
 - **RU:** НЕ утверждает, что фотографии — это калиброванный аналитический метод. Это предварительные наблюдательные записи, ожидающие анализа руководителя.
 - **RU:** Имеющиеся метки ограничены: рукописные записки `irradiated`/`control` на паре гороха 02.06 и `irradiated-ch17` на микрозелени 10.06. Атрибуция CH17 — только свободный текст манифеста, без метки в кадре и без парного контроля. Все 13 корзин RCT (control + ch17/19/21 × direct/water/crystal/combined) остаются пустыми плейсхолдерами; для CH19 и CH21 фотографий нет.

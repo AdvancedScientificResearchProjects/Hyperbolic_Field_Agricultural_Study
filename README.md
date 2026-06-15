@@ -7,8 +7,8 @@
 **Прорастание Семян, Рост Растений и Урожайность Под Воздействием Гиперболических Полей**
 
 [![ASRP](https://img.shields.io/badge/ASRP-Research-blue)](https://github.com/AdvancedScientificResearchProjects)
-[![Language](https://img.shields.io/badge/Language-EN%2FRU-brightgreen)]()
-[![Status](https://img.shields.io/badge/Status-Protocol%20Complete-green)]()
+![Language](https://img.shields.io/badge/Language-EN%2FRU-brightgreen)
+![Status](https://img.shields.io/badge/Status-Protocol%20Complete-green)
 
 **Part of Advanced Scientific Research Projects (ASRP) Ecosystem**
 
@@ -22,15 +22,15 @@
 
 | Section / Раздел | Description / Описание | Status / Статус |
 |------------------|----------------------|-----------------|
-| [Overview / Обзор](#overview--обзор) | Study objectives / Цели исследования |  Defined / Определено |
-| [Preliminary Observations / Предв. наблюдения](#preliminary-observations--предварительные-наблюдения) | 23-photo observational set / Набор из 23 фото |  Observational only / Только наблюдение |
-| [Research Goals / Цели](#research-goals--цели-исследования) | 7 measurable goals / 7 измеримых целей |  Defined / Определено |
-| [Experimental Design / Дизайн](#experimental-design--экспериментальный-дизайн) | 13 groups, 6 crops, 8 substrates / 13 групп, 6 культур, 8 субстратов |  Protocol v8.3 / Протокол v8.3 |
-| [Treatment Groups / Группы](#treatment-groups--группы-обработки) | Direct, Water, Crystal, Combined / Прямой, Вода, Кристалл, Комбинированный |  Defined / Определено |
-| [Timeline / Сроки](#timeline--временная-шкала) | ~7 months, 7 phases / ~7 месяцев, 7 фаз |  Planned / Запланировано |
-| [Team / Команда](#research-team--команда) | 7 researchers + collaborator / 7 исследователей + коллаборант |  Assigned / Назначено |
-| [Active Issues / Задачи](#active-issues--tasks--активные-задачи) | GitHub Issues / Задачи GitHub |  7 Open / 7 Открыто |
-| [Patent Connection / Патент](#patent-connection--связь-с-патентом) | KZ 2025/1095.1 |  Substantive Exam / Экспертиза по существу |
+| [Overview / Обзор](#overview--обзор) | Study objectives / Цели исследования | Defined / Определено |
+| [Preliminary Observations / Предв. наблюдения](#preliminary-observations--предварительные-наблюдения) | 23-photo observational set / Набор из 23 фото | Observational only / Только наблюдение |
+| [Research Goals / Цели](#research-goals--цели-исследования) | 7 measurable goals / 7 измеримых целей | Defined / Определено |
+| [Experimental Design / Дизайн](#experimental-design--экспериментальный-дизайн) | 13 groups, 6 crops, 8 substrates / 13 групп, 6 культур, 8 субстратов | Protocol v8.3 / Протокол v8.3 |
+| [Treatment Groups / Группы](#treatment-groups--группы-обработки) | Direct, Water, Crystal, Combined / Прямой, Вода, Кристалл, Комбинированный | Defined / Определено |
+| [Timeline / Сроки](#timeline--временная-шкала) | ~7 months, 7 phases / ~7 месяцев, 7 фаз | Planned / Запланировано |
+| [Team / Команда](#research-team--команда) | 7 researchers + collaborator / 7 исследователей + коллаборант | Assigned / Назначено |
+| [Active Issues / Задачи](#active-issues--tasks--активные-задачи) | GitHub Issues / Задачи GitHub | 5 Open / 5 Открыто |
+| [Patent Connection / Патент](#patent-connection--связь-с-патентом) | KZ 2025/1095.1 | Substantive Exam / Экспертиза по существу |
 
 ---
 
