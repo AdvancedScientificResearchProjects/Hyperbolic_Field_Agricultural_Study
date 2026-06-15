@@ -81,7 +81,6 @@ Randomized controlled trial (RCT) investigating the effects of hyperbolic field 
 | **Total Seeds / Всего семян** | 15,600 |
 | **Substrates / Субстраты** | 8 (including Mars/Moon regolith simulants) |
 | **Channels / Каналы** | 17, 19, 21 (+ Channel 14 mutagenic) |
-| **Statistical Power** | d=0.5, α=0.05, power=0.80, N=200/group |
 | **Patent / Патент** | KZ 2025/1095.1 |
 
 ---
@@ -155,19 +154,6 @@ Randomized controlled trial (RCT) investigating the effects of hyperbolic field 
 | **Primary / Основные** | Germination time (T50), germination percentage, germination uniformity / Время прорастания (T50), процент всхожести, однородность |
 | **Secondary / Вторичные** | Plant height, leaf count, stem diameter, chlorophyll (SPAD), fresh/dry biomass, seed yield / Высота, число листьев, диаметр стебля, хлорофилл (SPAD), свежая/сухая биомасса, урожай |
 
-### Statistical Analysis / Статистический Анализ
-
-| Method / Метод | Application / Применение |
-|---------------|-------------------------|
-| **ANOVA + Tukey HSD** | Group comparisons / Сравнение групп |
-| **Chi-square** | Germination rate / Процент всхожести |
-| **Mixed-effects models** | Repeated measures / Повторные измерения |
-| **ANCOVA** | Covariate adjustment / Корректировка ковариат |
-| **TOST Equivalence** | Equivalence testing / Тест эквивалентности |
-| **Factorial ANOVA** | Interaction effects / Эффекты взаимодействия |
-
-**Software / Программное обеспечение:** R
-
 ---
 
 ## DATA STRUCTURE / СТРУКТУРА ДАННЫХ
@@ -211,10 +197,10 @@ Hyperbolic_Field_Agricultural_Study/
 |   `-- ch21-combined/
 |       `-- photos/
 |
-|-- charts/                            # Analysis charts / Графики
+|-- charts/                            # Diagrams / Диаграммы
 |-- protocols/                         # Experiment protocols / Протоколы
-|-- reports/                           # Analysis reports / Отчёты
-`-- scripts/                           # Analysis scripts (R) / Скрипты (R)
+|-- reports/                           # (placeholder) / (плейсхолдер)
+`-- scripts/                           # (placeholder) / (плейсхолдер)
 ```
 
 See **[data/README.md](data/README.md)** — Data Hub indexing the flat photo set in `data/photos/` and the RCT-aligned channel/mode bins / Хаб данных, индексирующий плоский набор фотографий в `data/photos/` и RCT-выровненные корзины канал/режим.
@@ -303,15 +289,6 @@ See **[data/README.md](data/README.md)** — Data Hub indexing the flat photo se
 
 ---
 
-## OSF PREREGISTRATION / ПРЕДВАРИТЕЛЬНАЯ РЕГИСТРАЦИЯ OSF
-
-| Field / Поле | Value / Значение |
-|--------------|------------------|
-| **Status / Статус** | Registration pending / Регистрация ожидается |
-| **Platform / Платформа** | [OSF.io](https://osf.io) |
-
----
-
 ## CONTACT INFORMATION / КОНТАКТНАЯ ИНФОРМАЦИЯ
 
 | Field / Поле | Value / Значение |
@@ -337,7 +314,6 @@ See **[data/README.md](data/README.md)** — Data Hub indexing the flat photo se
 ## TBD
 
 - Seed photos BEFORE/DURING/AFTER exposure / Фото семян ДО/ВО ВРЕМЯ/ПОСЛЕ воздействия
-- OSF preregistration link / Ссылка OSF
 - Equipment setup photos / Фото установки оборудования
 
 ---
