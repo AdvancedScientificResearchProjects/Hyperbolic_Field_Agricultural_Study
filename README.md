@@ -311,7 +311,7 @@ See **[data/README.md](data/README.md)** — Data Hub indexing the flat photo se
 
 ---
 
-## TBD
+## TBD / В РАБОТЕ
 
 - Seed photos BEFORE/DURING/AFTER exposure / Фото семян ДО/ВО ВРЕМЯ/ПОСЛЕ воздействия
 - Equipment setup photos / Фото установки оборудования
