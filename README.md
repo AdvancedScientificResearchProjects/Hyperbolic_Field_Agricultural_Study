@@ -23,6 +23,8 @@
 | Section / Раздел | Description / Описание | Status / Статус |
 |------------------|----------------------|-----------------|
 | [Overview / Обзор](#overview--обзор) | Study objectives / Цели исследования |  Defined / Определено |
+| [Preliminary Observations / Предв. наблюдения](#preliminary-observations--предварительные-наблюдения) | 23-photo observational set / Набор из 23 фото |  Observational only / Только наблюдение |
+| [Reports / Отчёты](#reports--отчёты) | Observation report (EN/RU) / Отчёт-наблюдение |  2026-06-10 |
 | [Research Goals / Цели](#research-goals--цели-исследования) | 7 measurable goals / 7 измеримых целей |  Defined / Определено |
 | [Experimental Design / Дизайн](#experimental-design--экспериментальный-дизайн) | 13 groups, 6 crops, 8 substrates / 13 групп, 6 культур, 8 субстратов |  Protocol v8.3 / Протокол v8.3 |
 | [Treatment Groups / Группы](#treatment-groups--группы-обработки) | Direct, Water, Crystal, Combined / Прямой, Вода, Кристалл, Комбинированный |  Defined / Определено |
@@ -42,6 +44,38 @@ Randomized controlled trial (RCT) investigating the effects of hyperbolic field 
 ### RU
 
 Рандомизированное контролируемое испытание (РКИ) по исследованию воздействия гиперболических полей на прорастание семян, динамику роста растений и сельскохозяйственную урожайность. Исследование включает прямое воздействие, эффекты через воду и кристаллы на 6 видах культур и 8 почвенных субстратах, включая симулянты марсианского и лунного реголита для космического земледелия.
+
+---
+
+## PRELIMINARY OBSERVATIONS / ПРЕДВАРИТЕЛЬНЫЕ НАБЛЮДЕНИЯ
+
+### EN
+
+**Status: observational only — NOT an analysis, NOT confirmatory.** The repository currently holds a **23-photo preliminary observation set** (`data/photos/`, 18 JPEG + 5 HEIC, 2026-05-02 → 2026-06-10) of plant, pea, chickpea, and microgreen trays. **No quantitative measurements exist** (no germination counts, T50, heights, biomass, or scale bar), and **channel attribution is incomplete**.
+
+- Only **one in-frame labeled pair** exists: a handwritten *irradiated* vs *control* pea/microgreen comparison from 2026-06-04 (single replicate, channel unspecified). In the control frame the microgreen tray shows **heavy white mould — an uncontrolled confound**, not a treatment effect.
+- Two further 2026-06-10 microgreen photos are tagged `irradiated-ch17` **in manifest free-text only** (no in-frame label, no paired control).
+- **CH19 and CH21 have zero photographs.** All 13 protocol-v8.3 RCT bins (`control` + `ch17/ch19/ch21 × direct/water/crystal/combined`) are empty placeholders awaiting researcher attribution.
+
+> **Caveat / Оговорка:** Nothing in the current data supports any effect-size, germination-percentage, dose-response, or channel-specific claim. See the full observation report below and `data/README.md` for what the data does NOT claim.
+
+### RU
+
+**Статус: только наблюдение — НЕ анализ, НЕ подтверждение.** Репозиторий сейчас содержит **набор из 23 предварительных наблюдений** (`data/photos/`, 18 JPEG + 5 HEIC, 02.05.2026 → 10.06.2026) — лотки с растениями, горохом, нутом и микрозеленью. **Количественных измерений нет** (нет подсчётов всхожести, T50, высот, биомассы или масштабной линейки), и **атрибуция по каналам неполная**.
+
+- Существует только **одна маркированная в кадре пара**: рукописное сравнение *облучённые* vs *контроль* (горох/микрозелень) от 04.06.2026 (один повтор, канал не указан). В контрольном кадре на лотке микрозелени **обильная белая плесень — неконтролируемый конфаундер**, а не эффект обработки.
+- Ещё две фотографии микрозелени от 10.06.2026 помечены `irradiated-ch17` **только в свободном тексте манифеста** (нет метки в кадре, нет парного контроля).
+- **Для CH19 и CH21 фотографий ноль.** Все 13 корзин RCT протокола v8.3 (`control` + `ch17/ch19/ch21 × direct/water/crystal/combined`) — пустые плейсхолдеры, ожидающие атрибуции руководителя.
+
+---
+
+## REPORTS / ОТЧЁТЫ
+
+| # | Report / Отчёт | Date / Дата | Type / Тип | Links / Ссылки |
+|---|---|---|---|---|
+| 1 | Preliminary Observation Set / Набор предварительных наблюдений | 2026-06-10 | Observational only / Только наблюдение | [EN](reports/2026-06-10_preliminary-observation/report_en.md) · [RU](reports/2026-06-10_preliminary-observation/report_ru.md) |
+
+> **Note / Примечание:** This report is **descriptive only**. It documents what is visible in the 23 photographs, flags the control-tray mould as an uncontrolled confound, and lists exactly what is still needed for real analysis (populate RCT bins, supply CH19/CH21 imagery, in-frame seed counts + scale reference, documented conditions/randomisation). / Отчёт **только описательный**: фиксирует то, что видно на 23 фото, помечает плесень в контрольном лотке как неконтролируемый конфаундер и перечисляет, что ещё нужно для реального анализа.
 
 ---
 
@@ -321,4 +355,4 @@ See **[data/README.md](data/README.md)** — Data Hub indexing the flat photo se
 
 ## NAVIGATION INDEX / НАВИГАЦИОННЫЙ ИНДЕКС
 
-[Overview / Обзор](#overview--обзор) · [Key Metrics / Метрики](#key-metrics--ключевые-метрики) · [Research Goals / Цели](#research-goals--цели-исследования) · [Experimental Design / Дизайн](#experimental-design--экспериментальный-дизайн) · [Timeline / Сроки](#timeline--временная-шкала) · [Measurements / Измерения](#measurements--измерения) · [Patent Connection / Патент](#patent-connection--связь-с-патентом) · [Team / Команда](#research-team--команда) · [Active Issues / Задачи](#active-issues--tasks--активные-задачи) · [Space Agriculture / Космос](#space-agriculture-context--контекст-космического-земледелия) · [ASRP Ecosystem / Экосистема](#asrp-ecosystem--экосистема-asrp) · [Contact / Контакты](#contact-information--контактная-информация)
+[Overview / Обзор](#overview--обзор) · [Preliminary Observations / Наблюдения](#preliminary-observations--предварительные-наблюдения) · [Reports / Отчёты](#reports--отчёты) · [Key Metrics / Метрики](#key-metrics--ключевые-метрики) · [Research Goals / Цели](#research-goals--цели-исследования) · [Experimental Design / Дизайн](#experimental-design--экспериментальный-дизайн) · [Timeline / Сроки](#timeline--временная-шкала) · [Measurements / Измерения](#measurements--измерения) · [Patent Connection / Патент](#patent-connection--связь-с-патентом) · [Team / Команда](#research-team--команда) · [Active Issues / Задачи](#active-issues--tasks--активные-задачи) · [Space Agriculture / Космос](#space-agriculture-context--контекст-космического-земледелия) · [ASRP Ecosystem / Экосистема](#asrp-ecosystem--экосистема-asrp) · [Contact / Контакты](#contact-information--контактная-информация)
