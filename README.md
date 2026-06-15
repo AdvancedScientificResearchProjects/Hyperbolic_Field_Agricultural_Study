@@ -103,15 +103,15 @@ Randomized controlled trial (RCT) investigating the effects of hyperbolic field 
 
 ### Treatment Groups / Группы Обработки
 
-![Diagram 1](charts/mermaid/root_1.png)
+![Diagram 1](https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study/main/charts/mermaid/root_1.png)
 
 > **Channel 14 (Mutagenic / Мутагенный):** Separate investigation of mutagenic effects on seed germination — must be included in hypotheses / Отдельное исследование мутагенных эффектов на прорастание семян — должен быть включён в гипотезы
 
 ### Channel 14: Mutagenesis Hypothesis / Канал 14: Гипотеза Мутагенности
 
-**EN:** Hyperbolic radiation on channel 14 presumably induces mutagenesis in plants -- analogous to classical gamma irradiation, but through a hyperbolic field. The goal is to obtain new plant varieties with novel properties. In the classical approach, a large sample (thousands of seeds) is irradiated with gamma radiation, then mutations are analyzed. We use hyperbolic radiation instead of gamma. Possible channel combinations: 14, 14+17, 14+19.
+**EN:** Hyperbolic radiation on channel 14 presumably induces mutagenesis in plants — analogous to classical gamma irradiation, but through a hyperbolic field. The goal is to obtain new plant varieties with novel properties. In the classical approach, a large sample (thousands of seeds) is irradiated with gamma radiation, then mutations are analyzed. We use hyperbolic radiation instead of gamma. Possible channel combinations: 14, 14+17, 14+19.
 
-**RU:** Гиперболическое излучение на 14-м канале предположительно вызывает мутагенность в растениях -- аналогично классическому гамма-облучению, но через гиперболическое поле. Цель -- получение растений новых видов с новыми свойствами. В классическом подходе берётся большая выборка (тысячи семян), облучается гамма-излучением, затем анализируются мутации. Мы используем гиперболическое излучение вместо гамма. Возможные комбинации каналов: 14, 14+17, 14+19.
+**RU:** Гиперболическое излучение на 14-м канале предположительно вызывает мутагенность в растениях — аналогично классическому гамма-облучению, но через гиперболическое поле. Цель — получение растений новых видов с новыми свойствами. В классическом подходе берётся большая выборка (тысячи семян), облучается гамма-излучением, затем анализируются мутации. Мы используем гиперболическое излучение вместо гамма. Возможные комбинации каналов: 14, 14+17, 14+19.
 
 ### Soil Substrate Matrix / Матрица Почвенных Субстратов
 
@@ -143,7 +143,7 @@ Randomized controlled trial (RCT) investigating the effects of hyperbolic field 
 
 ## TIMELINE / ВРЕМЕННАЯ ШКАЛА
 
-![Diagram 2](charts/mermaid/root_2.png)
+![Diagram 2](https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study/main/charts/mermaid/root_2.png)
 
 ---
 
@@ -209,7 +209,7 @@ See **[data/README.md](data/README.md)** — Data Hub indexing the flat photo se
 
 ## PATENT CONNECTION / СВЯЗЬ С ПАТЕНТОМ
 
-![Diagram 3](charts/mermaid/root_3.png)
+![Diagram 3](https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study/main/charts/mermaid/root_3.png)
 
 ---
 
@@ -303,7 +303,7 @@ See **[data/README.md](data/README.md)** — Data Hub indexing the flat photo se
 
 <div align="center">
 
-**Last Updated / Последнее обновление:** April 2026
+**Last Updated / Последнее обновление:** June 2026 / Июнь 2026
 
 **Status / Статус:** Protocol Complete, Equipment Setup Pending / Протокол готов, подготовка оборудования
 
