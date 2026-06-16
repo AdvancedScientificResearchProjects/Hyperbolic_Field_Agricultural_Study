@@ -1,0 +1,11 @@
+{
+  "source_image": "microgreens_2026-05-11.jpg",
+  "crop": "radish microgreens (Raphanus sativus), tray view, top-down",
+  "experimenter_label": "right side = field-treated (CH17), left side = control",
+  "label_provenance": "researcher-provided label",
+  "orientations": {
+    "A": {"file": "sampleA.jpg", "transform": "original", "treated_side": "RIGHT"},
+    "B": {"file": "sampleB.jpg", "transform": "horizontal flip", "treated_side": "LEFT"}
+  },
+  "note": "Neutral filenames; analysts received no treatment information. The flip in orientation B is the position-bias control: if the model tracks plant content (not screen side), its verdict must flip with the image."
+}

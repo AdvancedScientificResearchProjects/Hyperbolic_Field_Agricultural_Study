@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "analysis": "blind LLM vision panel with orientation-flip position control",
+    "image": "microgreens_2026-05-11.jpg",
+    "crop": "radish microgreens",
+    "model": "Claude Opus 4.8 (vision)",
+    "model_families": 1,
+    "runs_total": 10,
+    "design": "5 runs on orientation A (treated=RIGHT) + 5 runs on orientation B (horizontally flipped, treated=LEFT). Each run is an independent blind judgement; analysts received no treatment information and a neutral filename.",
+    "question": "Which half (LEFT/RIGHT) shows more vigorous growth (larger leaves, denser canopy, deeper green, more developed seedlings)?",
+    "scoring": "A run is counted as a correct treated-side identification when its chosen half equals the treated side for that orientation.",
+    "caveats": [
+      "Single model family only (Claude Opus 4.8) -> 10 runs measure consistency, not cross-model independence.",
+      "n=1 photographic frame; no biological replication.",
+      "Perceptual assessment only; preliminary pixel green-canopy-cover and leaf-morphology metrics did NOT reproduce the model's stated reasons (leaf size, canopy density).",
+      "Descriptive, not causal: a content difference between trays cannot be attributed solely to the field treatment without controlled, replicated imaging (sowing density, lighting, tray position not controlled in this frame)."
+    ]
+  },
+  "runs": [
+    {"orientation": "A", "treated_side": "RIGHT", "winner": "RIGHT", "confidence": 65, "correct": true, "reason": "Right half: larger, rounder cotyledons, denser more uniform canopy; left half thinner stems, more gaps."},
+    {"orientation": "A", "treated_side": "RIGHT", "winner": "RIGHT", "confidence": 65, "correct": true, "reason": "Right half: broader rounded cotyledons, denser canopy, deeper green; left half smaller leaves, more visible soil."},
+    {"orientation": "A", "treated_side": "RIGHT", "winner": "RIGHT", "confidence": 65, "correct": true, "reason": "Right half: broader cotyledons, denser uniform canopy, slightly deeper green; left half more gaps, thinner stems."},
+    {"orientation": "A", "treated_side": "RIGHT", "winner": "RIGHT", "confidence": 65, "correct": true, "reason": "Right half: taller more upright seedlings, denser packing, more saturated green; left half flatter cotyledons, more soil gaps."},
+    {"orientation": "A", "treated_side": "RIGHT", "winner": "RIGHT", "confidence": 60, "correct": true, "reason": "Right half: slightly larger fuller cotyledons, marginally denser canopy, fewer soil gaps."},
+    {"orientation": "B", "treated_side": "LEFT", "winner": "LEFT", "confidence": 70, "correct": true, "reason": "Left half: denser more uniform canopy, deeper green; right half paler sparser patches, more exposed soil."},
+    {"orientation": "B", "treated_side": "LEFT", "winner": "LEFT", "confidence": 70, "correct": true, "reason": "Left half: denser uniform canopy, deeper green cotyledons, fewer soil gaps; right half paler, sparser, uneven."},
+    {"orientation": "B", "treated_side": "LEFT", "winner": "LEFT", "confidence": 70, "correct": true, "reason": "Left half: denser more uniform canopy, larger developed rounded cotyledons, deeper green; right half patchier, smaller, paler."},
+    {"orientation": "B", "treated_side": "LEFT", "winner": "LEFT", "confidence": 70, "correct": true, "reason": "Left half: denser uniform canopy, broader deeper-green cotyledons, less visible soil; right half more gaps, paler/smaller leaves."},
+    {"orientation": "B", "treated_side": "LEFT", "winner": "LEFT", "confidence": 70, "correct": true, "reason": "Left half: denser more uniform canopy, broader fuller cotyledons, deeper green; right half more gaps, soil showing, smaller/paler."}
+  ],
+  "summary": {
+    "treated_side_identified": "10/10",
+    "orientation_A_right": "5/5",
+    "orientation_B_left": "5/5",
+    "mean_confidence": 67.0,
+    "binomial_p_one_sided_chance_0p5": 0.00098,
+    "p_value_note": "Descriptive only. The 5 runs per orientation are the same model on the same frame and are NOT independent, so the nominal binomial p overstates significance. It is shown for scale/direction, not as a formal test.",
+    "primary_evidence": "The verdict FLIPS with the image (RIGHT in orientation A, LEFT in flipped orientation B). This excludes a fixed left-right screen-position bias; the model tracks something that mirrors with the frame (not necessarily the plants specifically -- an in-frame lighting/exposure gradient would behave the same way).",
+    "not_corroborated": "Preliminary pixel green-canopy-cover and leaf-morphology metrics did NOT reproduce the model's claimed canopy/size advantage; the LLM signal is perceptual and unverified.",
+    "interpretation": "Preliminary perceptual signal favouring the treated trays. Single model family, single frame; consistency demonstrated, cross-model independence and replication still required."
+  }
+}
