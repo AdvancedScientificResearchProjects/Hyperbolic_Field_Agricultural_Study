@@ -83,7 +83,7 @@
 
 Средняя уверенность 67 / 100.
 
-![Слепая панель — вердикт переворачивается вместе с кадром](https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study/main/reports/2026-06-16_llm-blind-photo/charts/chart_blind_panel.png)
+![Слепая панель — вердикт переворачивается вместе с кадром](https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study/main/reports/2026-06-16_llm-blind-photo/charts/chart_blind_panel_ru.png)
 
 **Результат**: в каждом слепом прогоне модель относила более активный рост к **обработанной** стороне. При зеркальном отражении кадра вердикт отразился вместе с ним (СПРАВА → СЛЕВА). Модель реагирует на **содержимое, которое переворачивается вместе с кадром**, а не на фиксированную сторону экрана. Само по себе это не доказывает, что сигнал — именно растения: градиент освещения или экспозиции в кадре вёл бы себя так же (см. §6).
 
@@ -133,7 +133,7 @@
 | `results/llm_blind/runs.json` | 10 слепых прогонов: ориентация, вердикт, уверенность, обоснование, сводка |
 | `results/llm_blind/KEY.json` | сопоставление ориентация → сторона обработки (раскрыто после подсчёта) |
 | `reports/2026-06-16_llm-blind-photo/charts/microgreens_2026-05-11.jpg` | анализируемый кадр |
-| `reports/2026-06-16_llm-blind-photo/charts/chart_blind_panel.png` | график слепой панели |
+| `reports/2026-06-16_llm-blind-photo/charts/chart_blind_panel_ru.png` | график слепой панели (RU) |
 
 > **О провенансе**: аналитики видели нейтральные изображения без метки обработки; сопоставление ориентация → сторона обработки из `KEY.json` применялось только после фиксации вердиктов.
 

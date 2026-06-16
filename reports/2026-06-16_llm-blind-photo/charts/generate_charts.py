@@ -26,44 +26,64 @@ def load():
         return json.load(f)
 
 
-def chart_blind_panel(data):
+L = {
+    "en": {
+        "xa": ["Orientation A\n(treated = RIGHT)", "Orientation B\n(flipped,\ntreated = LEFT)"],
+        "yl": "Runs choosing the treated side",
+        "lt": "Blind verdict flips with the image\n(position bias excluded)",
+        "rx": ["Treated side\nidentified", "Missed"],
+        "ry": "Blind runs (of 10)",
+        "rt": "Treated trays picked as more vigorous\n10 / 10 blind runs",
+        "sup": "Blind LLM panel — radish microgreens (single model, single frame)",
+        "file": "chart_blind_panel.png",
+    },
+    "ru": {
+        "xa": ["Ориентация A\n(обработка = СПРАВА)", "Ориентация B\n(зеркало,\nобработка = СЛЕВА)"],
+        "yl": "Прогонов выбрали сторону обработки",
+        "lt": "Вердикт переворачивается с кадром\n(позиция экрана исключена)",
+        "rx": ["Сторона\nобработки", "Промах"],
+        "ry": "Слепых прогонов (из 10)",
+        "rt": "Обработку выбрали как активнее\n10 / 10 слепых прогонов",
+        "sup": "Слепая LLM-панель — микрозелень редиса (одна модель, один кадр)",
+        "file": "chart_blind_panel_ru.png",
+    },
+}
+
+
+def chart_blind_panel(data, lang):
+    t = L[lang]
     runs = data["runs"]
-    a = [r for r in runs if r["orientation"] == "A"]
-    b = [r for r in runs if r["orientation"] == "B"]
-    a_correct = sum(r["correct"] for r in a)
-    b_correct = sum(r["correct"] for r in b)
+    a_correct = sum(r["correct"] for r in runs if r["orientation"] == "A")
+    b_correct = sum(r["correct"] for r in runs if r["orientation"] == "B")
 
     fig, axes = plt.subplots(1, 2, figsize=(9, 4.2))
 
-    # left panel: per-orientation correct treated-side calls
     ax = axes[0]
-    bars = ax.bar(["Orientation A\n(treated = RIGHT)", "Orientation B\n(flipped,\ntreated = LEFT)"],
-                  [a_correct, b_correct], color=[TREAT, CTRL], width=0.55)
+    bars = ax.bar(t["xa"], [a_correct, b_correct], color=[TREAT, CTRL], width=0.55)
     ax.set_ylim(0, 5.6)
-    ax.set_ylabel("Runs choosing the treated side")
-    ax.set_title("Blind verdict flips with the image\n(position bias excluded)", fontsize=10)
+    ax.set_ylabel(t["yl"])
+    ax.set_title(t["lt"], fontsize=10)
     for bar, n in zip(bars, [a_correct, b_correct]):
         ax.text(bar.get_x() + bar.get_width() / 2, n + 0.12, f"{n}/5",
                 ha="center", va="bottom", fontweight="bold")
 
-    # right panel: overall treated-side identification
     ax = axes[1]
     total = a_correct + b_correct
-    ax.bar(["Treated side\nidentified", "Missed"], [total, 10 - total],
-           color=[ASRP_PURPLE, "#D5D8DC"], width=0.55)
+    ax.bar(t["rx"], [total, 10 - total], color=[ASRP_PURPLE, "#D5D8DC"], width=0.55)
     ax.set_ylim(0, 11)
-    ax.set_ylabel("Blind runs (of 10)")
-    ax.set_title("Treated trays picked as more vigorous\n10 / 10 blind runs", fontsize=10)
+    ax.set_ylabel(t["ry"])
+    ax.set_title(t["rt"], fontsize=10)
     ax.text(0, total + 0.2, f"{total}/10", ha="center", va="bottom", fontweight="bold")
 
-    fig.suptitle("Blind LLM panel — radish microgreens (single model, single frame)",
-                 fontsize=11, fontweight="bold")
+    fig.suptitle(t["sup"], fontsize=11, fontweight="bold")
     fig.tight_layout(rect=[0, 0, 1, 0.95])
-    out = os.path.join(OUT, "chart_blind_panel.png")
+    out = os.path.join(OUT, t["file"])
     fig.savefig(out, dpi=150)
+    plt.close(fig)
     print("->", out)
 
 
 if __name__ == "__main__":
     data = load()
-    chart_blind_panel(data)
+    chart_blind_panel(data, "en")
+    chart_blind_panel(data, "ru")
