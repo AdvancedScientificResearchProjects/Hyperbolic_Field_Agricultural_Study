@@ -217,7 +217,7 @@ See **[data/README.md](data/README.md)** — Data Hub indexing the flat photo se
 
 | Name / ФИО | Role / Роль | Responsibilities / Обязанности |
 |-----------|------------|-------------------------------|
-| **Valeria Ovsyannikova / Валерия Овсянникова** | Director of Biomedical Research Department / Директор департамента биомедицинских исследований | Research coordination, protocol design / Координация, дизайн протокола |
+| **Valeria Ovsyannikova / Валерия Овсянникова** | Director of Biomedical Research Department; Chief Researcher & Head of Experimental Work / Директор департамента биомедицинских исследований; главный исследователь и руководитель экспериментальных работ | Author of the experimental program and methodology; research infrastructure and hardware development; full-cycle research; hyperbolic field physics / Автор экспериментальной программы и методологии; разработчик исследовательской инфраструктуры и аппаратных установок; проведение исследований полного цикла; физика гиперболических полей |
 | **Ivan Savelyev / Иван Савельев** | Science Director & Editor-in-Chief of ASRP.science / Директор по науке и главный редактор научного журнала ASRP.science | Scientific direction / Научное направление |
 | **Mykhailo Kapustin / Михайло Капустин** | CTO & Director of AI and IT Department / Технический директор и директор департамента ИИ и ИТ | IT infrastructure / ИТ-инфраструктура |
 | **Kyryl Zmiienko / Кирилл Змиенко** | Chief AI Engineer / Главный ИИ-инженер | AI/ML analysis / ИИ/МО анализ |
