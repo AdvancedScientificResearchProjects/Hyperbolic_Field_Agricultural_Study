@@ -4,7 +4,7 @@
 
 **Date**: 2026-07-02
 **Dataset**: 9 microscopy frames (**8 unique**; one duplicate) of broccoli microgreen leaf epidermis (*Brassica oleracea*), phone-through-eyepiece
-**Conditions**: control (3 frames) vs field + fractal treatment (6 frames = **5 unique**: 17+19+fractal, 17+18+fractal)
+**Conditions**: control (3 frames) vs field + fractal treatment (6 frames = **5 unique**: 17, 17+18+fractal)
 **Status**: **Preliminary, non-confirmatory** — perceptual null on uncalibrated eyepiece photos (see §6)
 **Method**: blind LLM vision panel (3 independent passes) + lightweight CV texture/sharpness; triangulated
 **Analysis system**: Claude Opus 4.8 (vision) — single model family
@@ -13,7 +13,7 @@
 
 ## 1. Motivation
 
-Denis sent microscopy of broccoli microgreen leaf cell structure after treatment (seed/water irradiation + "transferred fractal", channels 17/18/19), requesting an urgent control-vs-treated analysis, a separate report, and whether **botanical neural networks** exist for plant cell structure (medical nets were used before). Question: **do these frames show a treated-vs-control cell-structure difference, and is any difference biological or a capture artifact?** Channel predictions come from the ASRP **Hyperbolic Field Blood Plasma Study** (OSF: osf.io/8q42f), where CH19 = time acceleration, CH21 = deceleration; no a-priori morphology prediction for CH17/CH18.
+Denis sent microscopy of broccoli microgreen leaf cell structure after treatment (seed/water irradiation + "transferred fractal", channels 17/18), requesting an urgent control-vs-treated analysis, a separate report, and whether **botanical neural networks** exist for plant cell structure (medical nets were used before). Question: **do these frames show a treated-vs-control cell-structure difference, and is any difference biological or a capture artifact?** Channel predictions come from the ASRP **Hyperbolic Field Blood Plasma Study** (OSF: osf.io/8q42f), where CH19 = time acceleration, CH21 = deceleration; no a-priori morphology prediction for CH17/CH18.
 
 ## 2. Method
 
