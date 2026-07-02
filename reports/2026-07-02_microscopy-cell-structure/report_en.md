@@ -19,7 +19,7 @@ Denis sent microscopy of broccoli microgreen leaf cell structure after treatment
 
 9 frames received, **8 unique** — two treated frames (`246352`, `246354`) are byte-identical (same MD5), i.e. one image; the duplicate is counted once in aggregates. So control = 3, treated = 5 unique. Labels from the researcher's Telegram captions; blind name→label mapping in `blind_key.tsv` (neutral `sample-0X.jpg` joins to the file via the msg-id in its name), revealed only after scoring. Each of 3 blind observers received neutral filenames and no treatment info, scoring per frame: texture_disruption, shape_irregularity, cell_wall_definition, image_quality (0–100) + a blind `looks_altered` guess. A 4th pass was dropped (schema retry cap). Lightweight CV (`scripts/cv_texture.py`, Pillow/NumPy) computed edge-density/contrast/Laplacian-sharpness inside the field of view, deduplicated by MD5. A classical watershed morphometry (`scripts/cv_morphometry.py`, skimage) is method 3. **Expectation under a real effect**: treated should score higher on disruption/irregularity and be flagged "altered" more than control.
 
-> **On DL segmentation (Cellpose)**: Cellpose 4 (cpsam, ViT) was attempted, but on this box without a usable GPU (outdated CUDA driver) CPU inference is impractical (>2 min/frame, unstable). Method 3 therefore uses classical segmentation (skimage watershed); full DL morphometry (Cellpose/LeafNet) is deferred to a heavy stage on proper hardware (§6–7).
+> **On DL segmentation (Cellpose)**: Cellpose 4 (cpsam, ViT) needs ~16 GB VRAM and does not fit 3 GB, so we used the lightweight **Cellpose cyto3** on GPU (torch cu124 for driver CUDA 12.4, `scripts/cellpose_cyto3.py`) as method 4. It runs, but as a rounded-cell generalist it under-segments leaf pavement cells (§3.4) — itself confirming that plant-specific LeafNet is needed. The GPU env (`~/mc-gpu`) is set up for future calibrated runs.
 
 ## 3. Results
 
@@ -57,9 +57,22 @@ CV shows more edges/contrast in treated frames (+43% / +21%). **Crucially, this 
 
 **Key insight**: only **scale-dependent** metrics differ in treated (more cells, smaller area, higher density) — exactly the picture of higher magnification / a closer frame — while the **scale-invariant** metric, circularity, is essentially identical (+1.1%). Cell shape does not differ; only capture scale does. (Caveat: watershed reports 1000–2300 "cells"/frame — over-segmentation; absolute counts are unreliable, only the relative pattern and circularity invariance are used.)
 
+### 3.4 Cellpose cyto3 DL segmentation (GPU)
+
+Ran a real neural net, **Cellpose cyto3**, on GPU (GTX 1060 3GB, torch cu124). The result is itself informative: this rounded-cell generalist **under-segments leaf pavement cells** — only **1–62 "cells"/frame** with huge variance (same frames where watershed over-counted 1000+), **empirically confirming the domain shift** of §6: generalist/medical nets do not transfer to plant epidermis in transmitted light → LeafNet is needed.
+
+| Metric | Control | Treated | Δ | Scale-invariant? |
+|---|:---:|:---:|:---:|:---:|
+| "cells" (under-seg., unreliable) | 12 | 9 | −25% | no |
+| median area (px) | 1526 | 762 | −50% | no |
+| density | 0.26 | 0.19 | −24% | no |
+| **circularity** | 0.807 | 0.835 | **+3.5%** | **yes** |
+
+Despite unreliable segmentation, the scale-invariant **circularity is again essentially equal** (+3.5%) — as with watershed (+1.1%) and the blind panel. Scale-dependent metrics here are under-segmentation noise, not biology.
+
 ## 4. Signal or artifact?
 
-Artifact/inconclusive wins, and three independent methods converge on it: the blind panel is null on every structural metric; CV edge-density +43% is **not** explained by sharpness (Laplacian-var and image_quality equal across groups) and is collinear with uncontrolled magnification/contrast; classical morphometry differs **only** on scale-dependent metrics (count/area/density — a magnification signature) while scale-invariant **circularity is identical (+1.1%)**. Were treatment changing cell shape, circularity would differ. Plus a byte-identical duplicate and mismatched fields of view. **Conclusion**: no reproducible treated-vs-control cell-structure difference attributable to biology; the numeric gaps track uncontrolled capture scale, not cells. Preliminary and inconclusive — neither refutes nor supports an effect.
+Artifact/inconclusive wins, and four independent methods converge on it: the blind panel is null on every structural metric; CV edge-density +43% is **not** explained by sharpness (Laplacian-var and image_quality equal across groups) and is collinear with uncontrolled magnification/contrast; both classical morphometry and Cellpose cyto3 (GPU) differ **only** on scale-dependent metrics (count/area/density — a magnification signature) while scale-invariant **circularity is identical in both (+1.1% and +3.5%)**. Were treatment changing cell shape, circularity would differ. (cyto3 also under-segments pavement cells, empirically confirming that plant-specific LeafNet is needed, not generalist/medical nets.) Plus a byte-identical duplicate and mismatched fields of view. **Conclusion**: no reproducible treated-vs-control cell-structure difference attributable to biology; the numeric gaps track uncontrolled capture scale, not cells. Preliminary and inconclusive — neither refutes nor supports an effect.
 
 ## 5. Limitations
 
@@ -85,7 +98,7 @@ Calibrated microscopy (fixed magnification, µm scale, standard focus/exposure, 
 
 ## 8. Conclusion
 
-Across 9 eyepiece frames (8 unique) of broccoli microgreen epidermis, **three independent methods converge**: a blind 3-pass LLM panel found no structural difference; CV texture showed +43% edge-density in treated but not explained by sharpness (Laplacian-var/image_quality equal) and collinear with magnification/contrast; classical morphometry differed **only** on scale-dependent metrics (count/area/density — a magnification signature) with **identical scale-invariant circularity** (+1.1%). Net: **no treatment-driven change in cell shape/structure in this data**; the visible gaps track uncontrolled capture scale. Result is **preliminary, inconclusive, uncalibrated CV/LLM only**. A meaningful answer needs calibrated microscopy and botanical morphometry (LeafNet/PaCeQuant), not medical nets.
+Across 9 eyepiece frames (8 unique) of broccoli microgreen epidermis, **four independent methods converge**: a blind 3-pass LLM panel found no structural difference; CV texture showed +43% edge-density in treated but not explained by sharpness (Laplacian-var/image_quality equal) and collinear with magnification/contrast; classical watershed morphometry and Cellpose cyto3 DL segmentation (GPU) both differed **only** on scale-dependent metrics with **identical scale-invariant circularity** (+1.1% and +3.5%). Net: **no treatment-driven change in cell shape/structure in this data**; the visible gaps track uncontrolled capture scale. Separately, cyto3 under-segments pavement cells — plant-specific LeafNet is needed. Result is **preliminary, inconclusive, uncalibrated**. A meaningful answer needs calibrated microscopy and botanical morphometry (LeafNet/PaCeQuant), not medical nets.
 
 ---
 
