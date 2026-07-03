@@ -3,8 +3,11 @@
 **🌐 Language / Язык:** **English** · [Русский](report_ru.md)
 
 **Date**: 2026-07-02 · **Version**: v2
-**Dataset**: 8 unique phone-through-eyepiece microscopy frames of broccoli microgreen leaf epidermis (*Brassica oleracea*). Control (3) vs field + fractal treatment (5: channels 17 and 17+18).
-**Methods**: blind LLM vision panel + CV texture/color + morphometry (skimage watershed, Cellpose cyto3 on GPU) + plant-specific LeafNet. Scripts in `scripts/`.
+**Dataset**: 8 unique phone-through-eyepiece microscopy frames of broccoli microgreen leaf epidermis (*Brassica oleracea*)
+**Conditions**: control (3 frames) vs hyperbolic-field + fractal treatment, channels 17 and 17+18 (5 frames)
+**Status**: Preliminary. Treated samples are visibly greener (direction confirmed by color metrics and blind models); no difference in cell size/shape; confirming greenness as an effect requires standardized capture (§3)
+**Method**: blind LLM vision panel + CV texture and color + morphometry (skimage watershed, Cellpose cyto3 on GPU) + plant-specific LeafNet; scripts in `scripts/`
+**Analysis system**: Claude Opus 4.8 (vision) — blind visual scoring; Cellpose cyto3 / LeafNet — CV/DL cell segmentation
 
 ## Bottom line
 
@@ -52,5 +55,5 @@ Then greenness (ExG/hue) compares without capture noise and gives a clear answer
 - `images/` — 8 unique frames (names carry control/17/17+18 labels); `246352`≡`246354` is a duplicate.
 - `scripts/color_greenness.py` — color metrics (§1); `cv_texture.py`, `cv_morphometry.py`, `cellpose_cyto3.py`, `leafnet_parse.py` — structure/morphometry (§2).
 - `blind_key.tsv` — blind-name→label map (panels ran blind; labels revealed only at aggregation).
-- Labels confirmed from Denis's captions (2026-07-02 correction: "17+19+fractal" → only **17**).
+- Labels from the researcher's captions (clarification: frames marked "17+19+fractal" belong to channel **17**).
 - Caveats: small n, uncalibrated frames (no µm scale), single vision-model family. Preliminary analysis, not a final measurement.
