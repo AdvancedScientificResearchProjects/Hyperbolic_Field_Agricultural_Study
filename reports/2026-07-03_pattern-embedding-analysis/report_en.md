@@ -23,7 +23,7 @@ An earlier report (`2026-07-02_microscopy-cell-structure`, 8 eyepiece frames) fo
 ### 2.1 Dataset
 34 control + 18 treated = 52 frames. HEIC converted to PNG, eyepiece field of view cropped (circle), resized to a common size. Labels from Google Drive subfolder names ("Нулевой" = control, "Фрактал" = treated).
 
-### 2.2 Methods (five independent channels)
+### 2.2 Methods (five analysis channels)
 1. **DINOv2 ViT-S/14 (frozen) embeddings** (384-dim) per frame → control/treated classifier (logistic regression and kNN) → **permutation test** (`sklearn.permutation_test_score`, 1000 label permutations, 5-fold stratified, balanced accuracy). A direct test of whether features depend on the label at all.
 2. **Nuclei detection**: blob-LoG (`skimage.blob_log`) on dark bodies → **nuclear area fraction** (dimensionless, zoom-invariant) + nuclei density (zoom-dependent, for completeness).
 3. **Structure-tensor coherence** — local orderedness/directionality of the pattern (dimensionless, scale-robust).
