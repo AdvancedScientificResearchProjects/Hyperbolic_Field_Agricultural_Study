@@ -12,7 +12,7 @@
 ## Bottom line
 
 1. **Treated samples are greener.** Visible to the naked eye, and confirmed by color metrics and blind vision models.
-2. **No difference in cell size or shape.** Several independent methods found no treated-vs-control difference in cell size/shape.
+2. **No difference in cell shape; cell size could not be reliably measured on these frames.** The only valid (scale-invariant) shape measure — circularity — shows no treated-vs-control difference. This is the limit of the data, not proof that size is unchanged.
 
 ---
 
@@ -28,15 +28,17 @@ Treated frames have a warmer **yellow-green** tone; controls are more blue-white
 
 Both objective metrics and blind vision models see treated **greener on average** — matching the eye.
 
-## 2. Cell size and shape: unchanged
+## 2. Cell shape — no difference; size not measurable
 
-| method | result |
+Important: **reliable per-cell morphometry could not be obtained on these frames** — there is no µm scale, and automatic segmentation is unstable:
+
+| method | outcome |
 |---|---|
-| blind LLM panel (3 passes) | no structural difference |
-| morphometry (watershed + Cellpose cyto3, GPU) | cell shape (circularity) identical (Δ ≈ +1–3%); only scale-dependent metrics differ — a magnification effect, not biology |
-| LeafNet (plant-specific epidermis model) | cannot segment these frames (see §3) |
+| blind LLM panel (3 passes) | saw no structural difference (but one model family on noisy frames — a sensitivity limit, not proof) |
+| morphometry (watershed + Cellpose cyto3, GPU) | segmentation unreliable (watershed over-segments, cyto3 under-segments); the only scale-invariant shape measure — **circularity** — shows no difference (Δ ≈ +1–3%) |
+| LeafNet (plant-specific epidermis model) | does not segment cells on these frames at all (see §3) |
 
-Section conclusion: **no difference in cell size/shape between treated and control.** Frames that look "smaller/denser" are simply shot closer / at higher magnification, not changed cells.
+Section conclusion: **no difference in cell shape (circularity) between treated and control; cell size is not measured on these frames** — no µm calibration and no reliable segmentation. Frames that look "smaller/denser" are just different capture zoom, not cell size. And "could not measure size" is **not** "size unchanged": it is the limit of the data, not proof of no effect.
 
 ## 3. What's needed to lock in the greenness
 
@@ -57,7 +59,14 @@ Then greenness (ExG/hue) compares without capture noise and gives a clear answer
 - `blind_key.tsv` — blind-name→label map (panels ran blind; labels revealed only at aggregation).
 - Labels from the researcher's captions. Provenance: frames originally captioned "17+19" were clarified to channel **17**, so there is no separate "19" group; the "17+18+fractal" group is unchanged.
 
+## Limitations
+
+- Small sample: 8 unique frames (control 3 / treated 5); medians are unstable.
+- Frames are **uncalibrated**: no µm/pixel scale, varying zoom/focus/exposure/white balance — cell size is not comparable across frames.
+- Color and structure are scored by a **single vision-model family** (Claude Opus 4.8) plus CV methods that share one confound (uncalibrated capture) — these are not independent confirmations.
+- The "treated" group pools channels 17 and 17+18+fractal (different regimes).
+- No causal claim: no randomization or standardized capture. This is a **preliminary analysis, not a final measurement**.
+
 ---
 
 *Hyperbolic Field Agricultural Study — Advanced Scientific Research Projects (ASRP). Patent: KZ 2025/1095.1.*
-- Caveats: small n, uncalibrated frames (no µm scale), single vision-model family. Preliminary analysis, not a final measurement.
