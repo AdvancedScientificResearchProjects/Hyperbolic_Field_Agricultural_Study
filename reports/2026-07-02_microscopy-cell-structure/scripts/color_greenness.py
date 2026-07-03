@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Greenness / color analysis inside the eyepiece FOV, control vs treated (method 6).
-Added after Denis noted a naked-eye green difference the grayscale methods (1-5) discarded.
+Color analysis: greenness was not captured by the grayscale structure methods (1-5).
 g_chroma = G/(R+G+B) is brightness-invariant; ExG = 2G-R-B is brightness-sensitive.
 Usage: python color_greenness.py images/"""
 import sys,os,glob,hashlib,collections,numpy as np,statistics as st
