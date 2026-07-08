@@ -1,0 +1,319 @@
+{
+  "description": "Per-frame nuclei+texture metrics, broccoli microgreen epidermis, control(Нулевой)/treated(Фрактал=CH17+19+fractal). FOV-cropped, uncalibrated. Frame-level (see report §6 pseudoreplication).",
+  "control": {
+    "IMG_8656.png": {
+      "nuclear_area_frac": 0.1527,
+      "nuclei_density": 9.961,
+      "coherence": 0.5492,
+      "n_blobs": 101
+    },
+    "IMG_8657.png": {
+      "nuclear_area_frac": 0.0595,
+      "nuclei_density": 4.393,
+      "coherence": 0.5546,
+      "n_blobs": 124
+    },
+    "IMG_8658.png": {
+      "nuclear_area_frac": 0.0918,
+      "nuclei_density": 7.013,
+      "coherence": 0.6252,
+      "n_blobs": 150
+    },
+    "IMG_8659.png": {
+      "nuclear_area_frac": 0.0848,
+      "nuclei_density": 5.436,
+      "coherence": 0.6072,
+      "n_blobs": 113
+    },
+    "IMG_8660.png": {
+      "nuclear_area_frac": 0.064,
+      "nuclei_density": 4.943,
+      "coherence": 0.5726,
+      "n_blobs": 140
+    },
+    "IMG_8661.png": {
+      "nuclear_area_frac": 0.0657,
+      "nuclei_density": 5.163,
+      "coherence": 0.5729,
+      "n_blobs": 146
+    },
+    "IMG_8662.png": {
+      "nuclear_area_frac": 0.0849,
+      "nuclei_density": 8.959,
+      "coherence": 0.5772,
+      "n_blobs": 184
+    },
+    "IMG_8663.png": {
+      "nuclear_area_frac": 0.0524,
+      "nuclei_density": 4.519,
+      "coherence": 0.5805,
+      "n_blobs": 128
+    },
+    "IMG_8664.png": {
+      "nuclear_area_frac": 0.1743,
+      "nuclei_density": 11.696,
+      "coherence": 0.5874,
+      "n_blobs": 136
+    },
+    "IMG_8665.png": {
+      "nuclear_area_frac": 0.1302,
+      "nuclei_density": 8.127,
+      "coherence": 0.5847,
+      "n_blobs": 99
+    },
+    "IMG_8666.png": {
+      "nuclear_area_frac": 0.0932,
+      "nuclei_density": 6.116,
+      "coherence": 0.6244,
+      "n_blobs": 133
+    },
+    "IMG_8667.png": {
+      "nuclear_area_frac": 0.1044,
+      "nuclei_density": 8.287,
+      "coherence": 0.5303,
+      "n_blobs": 101
+    },
+    "IMG_8668.png": {
+      "nuclear_area_frac": 0.1135,
+      "nuclei_density": 8.376,
+      "coherence": 0.5614,
+      "n_blobs": 96
+    },
+    "IMG_8669.png": {
+      "nuclear_area_frac": 0.0842,
+      "nuclei_density": 6.024,
+      "coherence": 0.6059,
+      "n_blobs": 121
+    },
+    "IMG_8670.png": {
+      "nuclear_area_frac": 0.1535,
+      "nuclei_density": 11.369,
+      "coherence": 0.5598,
+      "n_blobs": 142
+    },
+    "IMG_8671.png": {
+      "nuclear_area_frac": 0.0767,
+      "nuclei_density": 5.668,
+      "coherence": 0.552,
+      "n_blobs": 160
+    },
+    "IMG_8672.png": {
+      "nuclear_area_frac": 0.1119,
+      "nuclei_density": 7.325,
+      "coherence": 0.5439,
+      "n_blobs": 83
+    },
+    "IMG_8673.png": {
+      "nuclear_area_frac": 0.0602,
+      "nuclei_density": 4.001,
+      "coherence": 0.5338,
+      "n_blobs": 113
+    },
+    "IMG_8674.png": {
+      "nuclear_area_frac": 0.0853,
+      "nuclei_density": 6.566,
+      "coherence": 0.599,
+      "n_blobs": 136
+    },
+    "IMG_8675.png": {
+      "nuclear_area_frac": 0.1758,
+      "nuclei_density": 11.12,
+      "coherence": 0.5679,
+      "n_blobs": 98
+    },
+    "IMG_8676.png": {
+      "nuclear_area_frac": 0.154,
+      "nuclei_density": 10.091,
+      "coherence": 0.5703,
+      "n_blobs": 84
+    },
+    "IMG_8677.png": {
+      "nuclear_area_frac": 0.0642,
+      "nuclei_density": 4.312,
+      "coherence": 0.5518,
+      "n_blobs": 122
+    },
+    "IMG_8678.png": {
+      "nuclear_area_frac": 0.0595,
+      "nuclei_density": 4.468,
+      "coherence": 0.5712,
+      "n_blobs": 126
+    },
+    "IMG_8680.png": {
+      "nuclear_area_frac": 0.1352,
+      "nuclei_density": 8.176,
+      "coherence": 0.581,
+      "n_blobs": 80
+    },
+    "IMG_8681.png": {
+      "nuclear_area_frac": 0.137,
+      "nuclei_density": 8.99,
+      "coherence": 0.5514,
+      "n_blobs": 83
+    },
+    "IMG_8683.png": {
+      "nuclear_area_frac": 0.0908,
+      "nuclei_density": 6.781,
+      "coherence": 0.6128,
+      "n_blobs": 144
+    },
+    "IMG_8685.png": {
+      "nuclear_area_frac": 0.0888,
+      "nuclei_density": 6.825,
+      "coherence": 0.5666,
+      "n_blobs": 187
+    },
+    "IMG_8686.png": {
+      "nuclear_area_frac": 0.0944,
+      "nuclei_density": 7.686,
+      "coherence": 0.5613,
+      "n_blobs": 91
+    },
+    "IMG_8687.png": {
+      "nuclear_area_frac": 0.1781,
+      "nuclei_density": 14.493,
+      "coherence": 0.5159,
+      "n_blobs": 147
+    },
+    "IMG_8688.png": {
+      "nuclear_area_frac": 0.1593,
+      "nuclei_density": 13.517,
+      "coherence": 0.5335,
+      "n_blobs": 133
+    },
+    "IMG_8689.png": {
+      "nuclear_area_frac": 0.0562,
+      "nuclei_density": 5.558,
+      "coherence": 0.492,
+      "n_blobs": 157
+    },
+    "IMG_8690.png": {
+      "nuclear_area_frac": 0.1783,
+      "nuclei_density": 12.995,
+      "coherence": 0.5471,
+      "n_blobs": 137
+    },
+    "IMG_8691.png": {
+      "nuclear_area_frac": 0.1136,
+      "nuclei_density": 9.066,
+      "coherence": 0.5957,
+      "n_blobs": 74
+    },
+    "IMG_8692.png": {
+      "nuclear_area_frac": 0.1028,
+      "nuclei_density": 8.189,
+      "coherence": 0.6106,
+      "n_blobs": 84
+    }
+  },
+  "treated": {
+    "IMG_8648.png": {
+      "nuclear_area_frac": 0.1508,
+      "nuclei_density": 17.007,
+      "coherence": 0.6599,
+      "n_blobs": 195
+    },
+    "IMG_8694.png": {
+      "nuclear_area_frac": 0.1472,
+      "nuclei_density": 7.052,
+      "coherence": 0.6269,
+      "n_blobs": 93
+    },
+    "IMG_8695.png": {
+      "nuclear_area_frac": 0.2081,
+      "nuclei_density": 11.552,
+      "coherence": 0.673,
+      "n_blobs": 125
+    },
+    "IMG_8696.png": {
+      "nuclear_area_frac": 0.2069,
+      "nuclei_density": 13.381,
+      "coherence": 0.6833,
+      "n_blobs": 124
+    },
+    "IMG_8697.png": {
+      "nuclear_area_frac": 0.4387,
+      "nuclei_density": 37.932,
+      "coherence": 0.7122,
+      "n_blobs": 354
+    },
+    "IMG_8698.png": {
+      "nuclear_area_frac": 0.1761,
+      "nuclei_density": 11.932,
+      "coherence": 0.627,
+      "n_blobs": 113
+    },
+    "IMG_8699.png": {
+      "nuclear_area_frac": 0.0645,
+      "nuclei_density": 5.079,
+      "coherence": 0.6358,
+      "n_blobs": 143
+    },
+    "IMG_8700.png": {
+      "nuclear_area_frac": 0.1022,
+      "nuclei_density": 14.173,
+      "coherence": 0.6065,
+      "n_blobs": 221
+    },
+    "IMG_8702.png": {
+      "nuclear_area_frac": 0.1675,
+      "nuclei_density": 15.636,
+      "coherence": 0.6226,
+      "n_blobs": 322
+    },
+    "IMG_8703.png": {
+      "nuclear_area_frac": 0.1066,
+      "nuclei_density": 10.787,
+      "coherence": 0.4466,
+      "n_blobs": 268
+    },
+    "IMG_8704.png": {
+      "nuclear_area_frac": 0.063,
+      "nuclei_density": 7.851,
+      "coherence": 0.5017,
+      "n_blobs": 188
+    },
+    "IMG_8706.png": {
+      "nuclear_area_frac": 0.0903,
+      "nuclei_density": 10.379,
+      "coherence": 0.6008,
+      "n_blobs": 200
+    },
+    "IMG_8707.png": {
+      "nuclear_area_frac": 0.1922,
+      "nuclei_density": 12.775,
+      "coherence": 0.6047,
+      "n_blobs": 167
+    },
+    "IMG_8708.png": {
+      "nuclear_area_frac": 0.1442,
+      "nuclei_density": 12.521,
+      "coherence": 0.5712,
+      "n_blobs": 185
+    },
+    "IMG_8709.png": {
+      "nuclear_area_frac": 0.1266,
+      "nuclei_density": 8.296,
+      "coherence": 0.5877,
+      "n_blobs": 76
+    },
+    "IMG_8710.png": {
+      "nuclear_area_frac": 0.0639,
+      "nuclei_density": 4.818,
+      "coherence": 0.5674,
+      "n_blobs": 136
+    },
+    "IMG_8711.png": {
+      "nuclear_area_frac": 0.1626,
+      "nuclei_density": 11.162,
+      "coherence": 0.5767,
+      "n_blobs": 109
+    },
+    "IMG_8712.png": {
+      "nuclear_area_frac": 0.1242,
+      "nuclei_density": 10.188,
+      "coherence": 0.5986,
+      "n_blobs": 115
+    }
+  }
+}
