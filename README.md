@@ -18,6 +18,20 @@
 
 ---
 
+<div align="center">
+
+[![💛 Support our work / Поддержать](https://img.shields.io/badge/💛%20Support%20our%20work-asrp.tech%2Fpatrons-FBBF24?style=for-the-badge)](https://asrp.tech/en/patrons)
+
+> **EN:** **If this work is valuable to you — support us.** 7 patron tiers from Principal Philanthropist to Individual Contributor.
+> **RU:** **Если эта работа вам полезна — поддержите нас.** 7 уровней меценатства — от Главного Филантропа до Индивидуального Вкладчика.
+>
+> **Support / Поддержать:** <https://asrp.tech/en/patrons>
+> **Investment inquiries / Инвестиционные запросы:** _pending — provide URL when available / в ожидании — добавляется при предоставлении_
+
+</div>
+
+---
+
 ## QUICK NAVIGATION / БЫСТРАЯ НАВИГАЦИЯ
 
 | Section / Раздел | Description / Описание | Status / Статус |
@@ -31,6 +45,9 @@
 | [Team / Команда](#research-team--команда) | 7 researchers + collaborator / 7 исследователей + коллаборант | Assigned / Назначено |
 | [Active Issues / Задачи](#active-issues--tasks--активные-задачи) | GitHub Issues / Задачи GitHub | 5 Open / 5 Открыто |
 | [Patent Connection / Патент](#patent-connection--связь-с-патентом) | KZ 2025/1095.1 | Substantive Exam / Экспертиза по существу |
+| [Security / Безопасность](#security--безопасность) | 4-tier data classification / 4-уровневая классификация | Standard / Стандартная |
+| [ASRP Ecosystem / Экосистема](#asrp-ecosystem--экосистема-asrp) | Related repos + patent portfolio / Связанные репозитории + патентный портфель | Maintained / Поддерживается |
+| [Contact / Контакты](#contact-information--контактная-информация) | Org, country, website, email / Организация, страна, сайт, email | Public / Публичный |
 
 ---
 
@@ -40,9 +57,15 @@
 
 Randomized controlled trial (RCT) investigating the effects of hyperbolic field exposure on seed germination, plant growth dynamics, and agricultural yield. The study includes direct exposure, water-mediated effects, and crystal-based treatment across 6 crop varieties and 8 soil substrates, including Mars and Moon regolith simulants for space agriculture applications.
 
+**Current data status — read before any result is inferred:** Protocol v8.3 is complete, but **no quantitative results exist yet**. The repository currently holds only a preliminary observational photo set (see [Preliminary Observations](#preliminary-observations--предварительные-наблюдения)). **No claim anywhere in this README is confirmatory, statistically significant, dose-response, or based on completed trials.** Targets in the tables below are protocol-defined hypotheses, not measured outcomes.
+
 ### RU
 
 Рандомизированное контролируемое испытание (РКИ) по исследованию воздействия гиперболических полей на прорастание семян, динамику роста растений и сельскохозяйственную урожайность. Исследование включает прямое воздействие, эффекты через воду и кристаллы на 6 видах культур и 8 почвенных субстратах, включая симулянты марсианского и лунного реголита для космического земледелия.
+
+_Машинный перевод (GLM) с английского оригинала._
+
+**Статус текущих данных — прочитайте, прежде чем делать выводы о результатах:** Протокол v8.3 завершён, но **количественных результатов пока нет**. Репозиторий сейчас содержит только предварительный набор наблюдений (см. [Предварительные наблюдения](#preliminary-observations--предварительные-наблюдения)). **Ни одно утверждение в данном README не является подтверждённым, статистически значимым, дозозависимым или основанным на завершённых испытаниях.** Целевые значения в таблицах ниже — это определённые протоколом гипотезы, а не измеренные результаты.
 
 ---
 
@@ -194,13 +217,17 @@ Hyperbolic_Field_Agricultural_Study/
 |   |   `-- photos/
 |   |-- ch21-crystal/
 |   |   `-- photos/
-|   `-- ch21-combined/
-|       `-- photos/
+|   |-- ch21-combined/
+|   |   `-- photos/
+|   |-- exp29-setup/                   # Exp29 setup photos + handwritten protocol / Фото установки exp29 + рукописный протокол
+|   `-- incoming/                      # Newly arrived batches under review / Новые поступления на рассмотрении
+|       `-- 2026-07-08_earlier-samples/
 |
-|-- charts/                            # Diagrams / Диаграммы
-|-- protocols/                         # Experiment protocols / Протоколы
-|-- reports/                           # (placeholder) / (плейсхолдер)
-`-- scripts/                           # (placeholder) / (плейсхолдер)
+|-- charts/                            # Mermaid diagrams (root_1..3.png) / Диаграммы Mermaid
+|-- protocols/                         # Experiment protocols (v8.3) / Протоколы экспериментов (v8.3)
+|-- reports/                           # Dated analysis reports (EN+RU pairs) / Датированные отчёты (пары EN+RU)
+|-- results/                           # Derived results (e.g. llm_blind) / Производные результаты
+`-- scripts/                           # Analysis code (llm_analysis) / Код анализа
 ```
 
 See **[data/README.md](data/README.md)** — Data Hub indexing the flat photo set in `data/photos/` and the RCT-aligned channel/mode bins / Хаб данных, индексирующий плоский набор фотографий в `data/photos/` и RCT-выровненные корзины канал/режим.
@@ -209,7 +236,21 @@ See **[data/README.md](data/README.md)** — Data Hub indexing the flat photo se
 
 ## PATENT CONNECTION / СВЯЗЬ С ПАТЕНТОМ
 
+### EN
+
+This study belongs to ASRP's **hyperbolic-field** research family and uses the hyperbolic-field emitter/channel technology that is the IP basis of the **Fractal Biomedical System (FBHFS)** patent — the filing shared across the hyperbolic-field studies (blood plasma, yeast, crystal, agriculture). The patent is currently in substantive examination; this agricultural study is exploratory and asserts no separate IP claim of its own.
+
+| Patent / Патент | Application / Заявка | Link / Ссылка |
+|-----------------|----------------------|---------------|
+| **Fractal Biomedical System / Фрактальная Биомедицинская Система** | KZ 2025/1095.1 | [View / Просмотр](https://github.com/denisbanchenko/Kazpatent_Fractal_Biomedical_System_Patent) |
+
 ![Diagram 3](https://raw.githubusercontent.com/AdvancedScientificResearchProjects/Hyperbolic_Field_Agricultural_Study/main/charts/mermaid/root_3.png)
+
+### RU
+
+_Машинный перевод (GLM) с английского оригинала._
+
+Настоящее исследование относится к исследовательскому семейству **гиперболических полей** ASRP и использует технологию эмиттера/каналов гиперболического поля, являющуюся интеллектуальной основой патента **Fractal Biomedical System (FBHFS)** — заявки, общей для исследований гиперболического поля (плазма крови, дрожжи, кристалл, сельское хозяйство). Патент в настоящее время проходит экспертизу по существу; данное сельскохозяйственное исследование носит поисковый характер и не заявляет отдельных прав на интеллектуальную собственность.
 
 ---
 
@@ -254,6 +295,19 @@ See **[data/README.md](data/README.md)** — Data Hub indexing the flat photo se
 | **MELiSSA** | ESA | 1989+ | Life support system / Система жизнеобеспечения |
 | **EDEN-ISS** | DLR | 2018+ | Antarctica greenhouse / Теплица в Антарктике |
 | **BIOS-3** | USSR | 1965-1984 | Closed ecosystem / Замкнутая экосистема |
+
+---
+
+## SECURITY / БЕЗОПАСНОСТЬ
+
+### Data Classification / Классификация данных
+
+| Level / Уровень | Access / Доступ | Marking / Маркировка | Description / Описание |
+|-------------------|-------------------|--------------------------|----------------------------|
+| **PUBLIC / ПУБЛИЧНЫЙ** | Open / Открытый | GREEN / ЗЕЛЁНЫЙ | General information / Общая информация |
+| **RESEARCH / ИССЛЕДОВАТЕЛЬСКИЙ** | Team Only / Только команда | YELLOW / ЖЁЛТЫЙ | Research data / Исследовательские данные |
+| **RESTRICTED / ОГРАНИЧЕННЫЙ** | Core Team / Основная команда | RED / КРАСНЫЙ | Sensitive analysis / Конфиденциальный анализ |
+| **INTERNAL / ВНУТРЕННИЙ** | Director Only / Только директор | BLACK / ЧЁРНЫЙ | Director-level review only / Только обзор уровня директора |
 
 ---
 
@@ -303,7 +357,7 @@ See **[data/README.md](data/README.md)** — Data Hub indexing the flat photo se
 
 <div align="center">
 
-**Last Updated / Последнее обновление:** June 2026 / Июнь 2026
+**Last Updated / Последнее обновление:** July 2026 / Июль 2026
 
 **Status / Статус:** Protocol Complete, Equipment Setup Pending / Протокол готов, подготовка оборудования
 
@@ -320,4 +374,4 @@ See **[data/README.md](data/README.md)** — Data Hub indexing the flat photo se
 
 ## NAVIGATION INDEX / НАВИГАЦИОННЫЙ ИНДЕКС
 
-[Overview / Обзор](#overview--обзор) · [Preliminary Observations / Наблюдения](#preliminary-observations--предварительные-наблюдения) · [Key Metrics / Метрики](#key-metrics--ключевые-метрики) · [Research Goals / Цели](#research-goals--цели-исследования) · [Experimental Design / Дизайн](#experimental-design--экспериментальный-дизайн) · [Timeline / Сроки](#timeline--временная-шкала) · [Measurements / Измерения](#measurements--измерения) · [Patent Connection / Патент](#patent-connection--связь-с-патентом) · [Team / Команда](#research-team--команда) · [Active Issues / Задачи](#active-issues--tasks--активные-задачи) · [Space Agriculture / Космос](#space-agriculture-context--контекст-космического-земледелия) · [ASRP Ecosystem / Экосистема](#asrp-ecosystem--экосистема-asrp) · [Contact / Контакты](#contact-information--контактная-информация)
+[Overview / Обзор](#overview--обзор) · [Preliminary Observations / Наблюдения](#preliminary-observations--предварительные-наблюдения) · [Key Metrics / Метрики](#key-metrics--ключевые-метрики) · [Research Goals / Цели](#research-goals--цели-исследования) · [Experimental Design / Дизайн](#experimental-design--экспериментальный-дизайн) · [Timeline / Сроки](#timeline--временная-шкала) · [Measurements / Измерения](#measurements--измерения) · [Patent Connection / Патент](#patent-connection--связь-с-патентом) · [Team / Команда](#research-team--команда) · [Active Issues / Задачи](#active-issues--tasks--активные-задачи) · [Space Agriculture / Космос](#space-agriculture-context--контекст-космического-земледелия) · [Security / Безопасность](#security--безопасность) · [ASRP Ecosystem / Экосистема](#asrp-ecosystem--экосистема-asrp) · [Contact / Контакты](#contact-information--контактная-информация)
